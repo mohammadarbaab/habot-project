@@ -1,3 +1,1256 @@
+<div className="grid justify-items-center flex-col">
+          <h1 className="text-[28px] md:text-[55px] font-[700] leading-[66px] text-center">
+            Are You a Supplier?
+          </h1>
+          <span className="text-[22px] md:text-[55px] lg:text-[55px] font-[400] leading-[66px]  text-center">
+            Explore Matching Opportunities.
+          </span>
+        </div>
+
+ 
+md:gap-1
+ 
+md-mb-0
+ 
+
+        <div className="grid justify-items-center flex-col ">
+          <h1 className="text-[28px] md:text-[55px] font-[700] leading-[66px] text-center">
+            Are You a Supplier?
+          </h1>
+          <span className="text-[22px] md:text-[55px] lg:text-[55px] font-[400] leading-[66px] text-center">
+            Explore Matching Opportunities.
+          </span>
+        </div>
+ 
+lg:text-[55px]
+ 
+m:text-[18px]
+ 
+sm:text-[18px]
+ 
+sm:text-left
+ 
+sm:justify-center
+ 
+lg:w-[400px]
+ 
+lg:w-[400px]
+ 
+sm:flex-row
+ 
+sm:w-[400px]
+ 
+sm:w-[400px]
+ 
+sm:text-[35px] 
+ 
+sm:text-[53px]
+ 
+ <div
+        className="min-h-[490px] bg-cover bg-center flex flex-col gap-[35px] text-[white] items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+        }}
+      >
+        <div className="grid justify-items-center flex-col ">
+          <h1 className="text-[28px] sm:text-[53px] font-[700]  leading-[66px] text-center">
+            Are You a Supplier?
+          </h1>
+          <span class="text-[22px] sm:text-[55px] font-[400] leading-[66px] text-center">
+            Explore Matching Opportunities.
+          </span>
+        </div>
+
+        <div className="flex flex-col gap-[10px] items-center justify-center md:flex-row">
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            class="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center]  sm:w-[400px] "
+            style={{
+              height: '52px',
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] sm:w-[400px]"
+            style={{
+              height: '52px',
+            }}
+          />
+          <button className="w-[115px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-2 items-center sm:justify-center text-center sm:text-left">
+          <b class="text-lg sm:text-[18px] font-semibold"> Are you a buyer? </b>
+          <span class="underline text-[14px] sm:text-[18px]">
+            Click here if you are looking to post a requirement
+          </span>
+        </div>
+      </div>
+ 
+ <div
+        className="min-h-[490px] bg-cover bg-center flex flex-col gap-[35px] text-[white] items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+        }}
+      >
+        <div className="grid justify-items-center flex-col ">
+          <h1 className="text-[28px] sm:text-[53px] font-[700]  leading-[66px] text-center">
+            Are You a Supplier?
+          </h1>
+          <span class="text-[22px] sm:text-[55px] font-[400] leading-[66px] text-center">
+            Explore Matching Opportunities.
+          </span>
+        </div>
+
+        <div className="flex flex-col gap-[10px] items-center justify-center md:flex-row">
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            class="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center]  sm:w-[400px] "
+            style={{
+              height: '52px',
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] sm:w-[400px]"
+            style={{
+              height: '52px',
+            }}
+          />
+          <button className="w-[115px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-2 items-center sm:justify-center text-center sm:text-left">
+          <b class="text-lg sm:text-[18px] font-semibold"> Are you a buyer? </b>
+          <span class="underline text-[14px] sm:text-[18px]">
+            Click here if you are looking to post a requirement
+          </span>
+        </div>
+      </div>
+ 
+ <div
+        className="min-h-[490px] bg-cover bg-center flex flex-col gap-[35px] text-[white] items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+        }}
+      >
+        <div className="grid justify-items-center flex-col ">
+          <h1 className="text-[28px] sm:text-[53px] font-[700]  leading-[66px] text-center">
+            Are You a Supplier?
+          </h1>
+          <span class="text-[22px] sm:text-[55px] font-[400] leading-[66px] text-center">
+            Explore Matching Opportunities.
+          </span>
+        </div>
+
+        <div className="flex flex-col gap-[10px] items-center justify-center md:flex-row">
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            class="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center]  sm:w-[400px] "
+            style={{
+              height: '52px',
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] sm:w-[400px]"
+            style={{
+              height: '52px',
+            }}
+          />
+          <button className="w-[115px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-2 items-center sm:justify-center text-center sm:text-left">
+          <b class="text-lg sm:text-[18px] font-semibold"> Are you a buyer? </b>
+          <span class="underline text-[14px] sm:text-[18px]">
+            Click here if you are looking to post a requirement
+          </span>
+        </div>
+      </div>
+ 
+sm:
+ 
+flex-row
+ 
+sm:flex-row
+ 
+ rounded-[5px] border border-transparent bg-white text-black bg-no-repeat  bg-[position:15px_center]
+ 
+[length:18px]
+ 
+pl-[45px] pr-[20px]
+ 
+sm:w-[400px]
+ 
+sm:flex-col
+ 
+flex flex-col
+ 
+ <div
+        className="min-h-[490px] bg-cover bg-center flex flex-col gap-[35px] text-[white] items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+        }}
+      >
+        <div className="grid justify-items-center flex-col">
+          <h1 className="text-[28px] sm:text-[53px] font-[700]  leading-[66px] text-center">
+            Are You a Supplier?
+          </h1>
+          <span class="text-[22px] sm:text-[55px] font-[400] leading-[66px] text-center">
+            Explore Matching Opportunities.
+          </span>
+        </div>
+
+        <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-[10px] items-center justify-center  ">
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            class="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center]  sm:w-[400px] "
+            style={{
+              height: '52px',
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] sm:w-[400px]"
+            style={{
+              height: '52px',
+            }}
+          />
+          <button className="w-[115px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-2 items-center sm:justify-center text-center sm:text-left">
+          <b class="text-lg sm:text-[18px] font-semibold"> Are you a buyer? </b>
+          <span class="underline text-[14px] sm:text-[18px]">
+            Click here if you are looking to post a requirement
+          </span>
+        </div>
+      </div>
+ 
+<div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-[10px] items-center justify-center ">
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            class="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center]  sm:w-[400px] "
+            style={{
+              height: '52px',
+            }}
+          />
+          <input
+            type="text"
+            placeholder="Search your required service here"
+            className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] sm:w-[400px]"
+            style={{
+              height: '52px',
+            }}
+          />
+          <button className="w-[115px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+        </div>
+ 
+style={{ width: '52px' }}
+ 
+style={{ width: '52px' }}
+ 
+w-[52px] 
+ 
+<button className="w-[52px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+ 
+w-[]
+ 
+w-full
+ 
+w-full
+ 
+w-full
+ 
+
+              width:"100%"
+ 
+leading-snug
+ 
+ld
+ 
+font-extrabold
+ 
+<button className="w-[117px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+            Search
+          </button>
+ 
+w-2/4
+ 
+gap-[0px]
+ 
+90%
+ 
+pt-[35px]
+ 
+sm-[55px]
+ 
+sm-[55px]
+ 
+style="height: 52px"
+ 
+
+          style="
+            /* padding: 0 20px; */
+            /* border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            background-color: #00732f;
+            font-size: 15.13px;
+            font-weight: 700;
+            line-height: 24px;
+            align-items: center;
+            color: white; */
+          "
+ 
+
+          backgroundSize: 'cover',
+          backgroundPosition: 'center bottom' // Align background image to bottom
+ 
+<div
+        className="min-h-[523px] bg-cover bg-center flex flex-col gap-[10px] text-[white] items-center justify-center"
+        style={{
+          backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+        }}
+      ></div>
+ 
+ <div 
+      className="min-h-[523px] bg-[linear-gradient(356.01deg,rgba(7,47,87,0.75)_50.8%,rgba(7,47,87,0)_94.58%),linear-gradient(0deg,rgba(7,47,87,0.45),rgba(7,47,87,0.45))] bg-cover bg-center flex flex-col gap-[10px] text-[white] items-center justify-center"
+      style={{ backgroundImage: `url(${heroImage})` }} // Dynamically set background image
+    >
+ 
+<div
+        className="min-h-[523px] bg-[linear-gradient(356.01deg,rgba(7,47,87,0.75)_50.8%,rgba(7,47,87,0)_94.58%),linear-gradient(0deg,rgba(7,47,87,0.45),rgba(7,47,87,0.45))] bg-cover bg-center flex flex-col gap-[10px] text-[white] items-center justify-center"
+        style={{ backgroundImage: `url(${heroImage})` }}
+      ></div>
+ 
+<div className="min-h-[523px] bg-[linear-gradient(356.01deg,rgba(7,47,87,0.75)_50.8%,rgba(7,47,87,0)_94.58%),linear-gradient(0deg,rgba(7,47,87,0.45),rgba(7,47,87,0.45)),url(${heroImage})] bg-cover bg-center flex  flex-col gap-[10px] text-[white] items-center justify-center">
+ 
+<div className="min-h-[523px] bg-[linear-gradient(356.01deg,rgba(7,47,87,0.75)_50.8%,rgba(7,47,87,0)_94.58%),linear-gradient(0deg,rgba(7,47,87,0.45),rgba(7,47,87,0.45)),url(${heroImage})] bg-cover bg-center flex  flex-col gap-[10px] text-[white] items-center justify-center">
+ 
+  <div
+      className="bg-cover bg-center flex items-center justify-center flex-col gap-8 text-white"
+      style={{
+        backgroundImage: `linear-gradient(356.01deg, rgba(7,47,87,0.75) 50.8%, rgba(7,47,87,0) 94.58%), linear-gradient(0deg, rgba(7,47,87,0.45), rgba(7,47,87,0.45)), url(${heroImage})`,
+        height:"409px"
+      }}
+    >
+    </div>
+ 
+<div
+      className="bg-cover bg-center flex items-center justify-center flex-col gap-8 text-white"
+      style={{
+        backgroundImage: `linear-gradient(356.01deg, rgba(7,47,87,0.75) 50.8%, rgba(7,47,87,0) 94.58%), linear-gradient(0deg, rgba(7,47,87,0.45), rgba(7,47,87,0.45)), url(${heroImage})`,
+        height:"409px"
+      }}
+    >
+ 
+<div
+      className="bg-cover bg-center flex items-center justify-center flex-col gap-8 text-white"
+      style={{
+        backgroundImage: `linear-gradient(356.01deg, rgba(7,47,87,0.75) 50.8%, rgba(7,47,87,0) 94.58%), linear-gradient(0deg, rgba(7,47,87,0.45), rgba(7,47,87,0.45)), url(${heroImage})`,
+        height:"409px"
+      }}
+    >
+    </div>
+ 
+min-h-[523px]
+ 
+../Asessts/hero.png
+ 
+
+    </div>
+ 
+<div className="min-h-[523px] bg-[linear-gradient(356.01deg,rgba(7,47,87,0.75)_50.8%,rgba(7,47,87,0)_94.58%),linear-gradient(0deg,rgba(7,47,87,0.45),rgba(7,47,87,0.45)),url(${heroImage})] bg-cover bg-center flex items-center justify-center flex-col gap-8 text-white">
+
+ 
+../Hero.js
+ 
+Asessts
+ 
+D:\05.Git\35.New habot\habot-project\habot\src\Pages
+ 
+ <section className="bg-orange-700 text-white">
+        <div className="flex flex-col pt-20 px-5 gap-4 laptop:items-center">
+          {/* Header div */}
+          <div className="flex gap-4 flex-col items-center">
+            <h1 className="text-3xl sm:text-4xl font-bold text-center sm:text-left text-white ">
+              Are You a Supplier?
+            </h1>
+            <h2 className="text-2xl sm:text-4xl font-normal text-center sm:text-left text-white">
+              Explore Matching Opportunities.
+            </h2>
+          </div>
+          {/* inputs div */}
+
+          <div className="flex flex-col laptop:items-center laptop:flex-row mobile:items-center gap-4">
+            <input
+              className="h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{
+                width:"400px",
+                height: "50px",
+                backgroundImage: `url(${sent})`,
+                backgroundSize: "20px 20px", // Adjust the size of the icon
+                backgroundPosition: "left 10px center", // Position the icon on the left, adjust spacing
+                backgroundRepeat: "no-repeat",
+                paddingLeft: "35px", // Adjust this so text doesn't overlap the icon
+              }}
+            />
+            <input
+              className=" h-12 px-6 py-6 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{
+                width:"400px",
+                height: "50px",
+                backgroundImage: `url(${address})`,
+                backgroundSize: "20px 20px", // Adjust the size of the icon
+                backgroundPosition: "left 10px center", // Position the icon on the left, adjust spacing
+                backgroundRepeat: "no-repeat",
+                paddingLeft: "35px", // Adjust this so text doesn't overlap the icon
+              }}
+            />
+            <button
+              className=" h-12 bg-[#00732f] text-white font-bold rounded-lg border border-black mobile:w-full"
+              style={{ height: "54px",width:"117px" }}
+            >
+              Search
+            </button>
+          </div>
+
+          {/* footer div */}
+          <div className="hero-footer ">
+            <b>Are you a buyer?</b>
+            <a>Click here if you are looking to post a requirements</a>
+          </div>
+        </div>
+      </section>
+ 
+elf-start
+ 
+sm:w-[45%]
+ 
+sm:w-[45%]
+ 
+sm:w-[15%]
+ 
+sm:justify-center
+ 
+ screens: {
+        "tablets": "690px", // Custom breakpoint set to 777px
+      },
+ 
+<div>
+            <b>Are you a buyer?</b>
+            <span>Click here if you are looking to post a requirements</span>
+          </div>
+ 
+
+    // Hero section
+    // <main>
+    //   <div
+    //     id="hero"
+    //     className="flex flex-col justify-center items-center"
+    //     style={{
+    //       width: "100%",
+    //       height: "60vh", // Set a fixed height for the hero section
+    //       background: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%),
+    //              linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)),
+    //              url(${heroImage})`,
+    //       backgroundSize: "cover", // Ensure the background image covers the entire section
+    //       backgroundPosition: "center", // Keep the image centered
+    //     }}
+    //   >
+    //     <div
+    //       id="hero-container"
+    //       className="max-w-4xl mx-auto px-6 pb-32 flex flex-col sm:items-start sm:text-left md:hidden justify-center gap-8"
+    //       style={{
+    //         marginTop: "120px",
+    //       }}
+    //     >
+    //       {/* Heading Section */}
+    //       <div className="flex gap-4 flex-col">
+    //         <h1 className="text-3xl sm:text-4xl font-bold text-center sm:text-left text-white">
+    //           Are You a Supplier?
+    //         </h1>
+    //         <h2 className="text-2xl sm:text-4xl font-normal text-center sm:text-left text-white">
+    //           Explore Matching Opportunities.
+    //         </h2>
+    //       </div>
+
+    //       {/* Input and Button Section */}
+    //       <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4">
+    //         <input
+    //           className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+    //           placeholder="Search your required service here"
+    //           style={{
+    //             height: "50px",
+    //             backgroundImage: `url(${sent})`,
+    //             backgroundSize: "20px 20px", // Adjust the size of the icon
+    //             backgroundPosition: "left 10px center", // Position the icon on the left, adjust spacing
+    //             backgroundRepeat: "no-repeat",
+    //             paddingLeft: "35px", // Adjust this so text doesn't overlap the icon
+    //           }}
+    //         />
+    //         <input
+    //           className="w-full sm:w-[45%] h-12 px-6 py-6 rounded-lg border border-black text-black"
+    //           placeholder="Search your required service here"
+    //           style={{
+    //             height: "50px",
+    //             backgroundImage: `url(${address})`,
+    //             backgroundSize: "20px 20px", // Adjust the size of the icon
+    //             backgroundPosition: "left 10px center", // Position the icon on the left, adjust spacing
+    //             backgroundRepeat: "no-repeat",
+    //             paddingLeft: "35px", // Adjust this so text doesn't overlap the icon
+    //           }}
+    //         />
+    //         <button
+    //           className="w-full sm:w-[15%] h-12 bg-[#00732f] text-white font-bold rounded-lg border border-black"
+    //           style={{ height: "54px" }}
+    //         >
+    //           Search
+    //         </button>
+    //       </div>
+
+    //       <div className="hero-footer">
+    //         <b>Are you a buyer?</b>
+    //         <a>Click here if you are looking to post a requirements</a>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </main>
+ 
+ //
+ 
+<div className="flex flex-col gap-3">
+            <input placeholder="Search your required service here"></input>
+            <input placeholder="Search your required service here"></input>
+            <button>search</button>
+          </div>
+ 
+ <div className="flex flex-col gap-3">
+            <h1>Are You a Supplier?</h1>
+            <h2>Explore Matching Opportunities.</h2>
+          </div>
+ 
+module.export = {
+  plugins: ["prettier-plugin-tailwindcss"],
+}
+ 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {
+      screens: {
+        custom: "777px", // Custom breakpoint set to 777px
+      },
+      fontSize: {
+        'sm': '0.75rem',   // Small size 12
+        'base': '0.875rem', // Base size 14
+        'md': '1rem',      // Medium size 16
+        'lg': '1.25rem',  // Large size (you can adjust as needed) 20
+        'xl': '1.5rem',   // Extra large size (you can adjust as needed) 24
+        '2xl': '1.75rem',   // 2x large size (you can adjust as needed) 28
+        '3xl': '2.25rem', // 3x large size (you can adjust as needed) 36
+      },
+    },
+  },
+  fontFamily: {
+    display: ["Poppins", "sans-serif"], // Ensure this is correct
+    body: ["Inter", "sans-serif"],      // Ensure this is correct
+  },
+  plugins: [require("tailwindcss"), require("autoprefixer")],
+};
+
+ 
+./dist/input.css
+ 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {
+      screens: {
+        custom: "777px", // Custom breakpoint set to 777px
+      },
+      fontSize: {
+        'sm': '0.75rem',   // Small size
+        'base': '0.875rem', // Base size
+        'md': '1rem',      // Medium size
+        'lg': '1.125rem',  // Large size (you can adjust as needed)
+        'xl': '1.25rem',   // Extra large size (you can adjust as needed)
+        '2xl': '1.75rem',   // 2x large size (you can adjust as needed)
+        '3xl': '2.25rem', // 3x large size (you can adjust as needed)
+      },
+    },
+  },
+  fontFamily: {
+    display: ["Poppins", "sans-serif"],
+    body: ["Inter", "sans-serif"],
+  },
+  plugins: [require("tailwindcss"), require("autoprefixer")],
+};
+
+ 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {
+      screens: {
+        custom: "680px", // Custom breakpoint 777px par set kiya
+      },
+      fontSize:{
+        'sm': '0.75rem',
+        "base":".875rem",
+        "md":"1rem",
+        'lg': '',
+        'xl': '',
+        '2xl': '',
+        '3xl': '',
+        },
+      }
+    },
+  },
+  fontFamily: {
+    display: ["Poppins", "sans-serif"],
+    body: ["Inter", "sans-serif"],
+  },
+  plugins: [require("tailwindcss"), require("autoprefixer")],
+};
+
+ 
+
+  fontFamily: {
+    display: ["Poppins", "sans-serif"],
+    body: ["Inter", "sans-serif"],
+  },
+ 
+
+        'xl': '18px',
+        '2xl': '20px',
+        '3xl': '24px',
+        '4xl': '28px',
+        '5xl': '32px',
+        '6xl': '36px',
+        '7xl': '40px',
+ 
+./index.css
+ 
+
+      marginLeft: "auto", // Align the div centrally
+ 
+ {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden"
+          style={{
+            height: "20vh",
+            width: "94%",
+            marginLeft: "20px",
+            marginTop: "65px",
+            borderRadius: "20px", // Rounded corners
+            backgroundColor: "white", // White background
+            border: "1px solid rgba(0, 0, 0, 0.1)", // Light border with a soft color
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)", // Soft shadow effect
+            padding: "25px", // Padding inside the box
+          }}
+        >
+          <div id="nav-bar" className="flex justify-between items-center">
+            {/* Left: Logo */}
+            {/* <a href="#" className="flex gap-2 items-center">
+              <img
+                alt="Habot Logo"
+                src={logo} // Update with actual logo path
+                style={{
+                  width: "100px",
+                  height: "auto",
+                }}
+              />
+            </a> */}
+
+            {/* Right: Button to close menu */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+              <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+            </button> */}
+          </div>
+
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? "page" : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === "Find Service Tags" && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: "7px",
+                      cursor: "pointer",
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black"
+              style={{
+                width: "193px",
+                height: "50px",
+                borderRadius: "5px",
+                border: "1px solid #00732F",
+                color: "#00732F",
+                fontSize: "15px",
+                fontWeight: "700",
+                lineHeight: "24px",
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+ 
+<div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden"
+          style={{
+            height: "20vh",
+            width: "35%",
+            marginLeft: "20px",
+            marginTop: "65px",
+            borderRadius: "20px", // Rounded corners
+            backgroundColor: "white", // White background
+            border: "1px solid rgba(0, 0, 0, 0.1)", // Light border with a soft color
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)", // Soft shadow effect
+            padding: "25px", // Padding inside the box
+          }}
+        >
+ 
+<div
+          id="nav-dailoge"
+          className="fixed bg-red-400 inset-0 px-6 md:hidden"
+          style={{
+            height: "20vh",
+            width: "90%",
+            marginLeft: "20px",
+            marginTop: "65px",
+            borderRadius: "20px",
+            border: "1px solid black 0 1px 2px 0 rgb(0 0 0 / 0.05);",
+            padding: "20px",
+          }}
+        >
+ 
+ border:"1px solid black 0 1px 2px 0 rgb(0 0 0 / 0.05);",
+ 
+
+          margin:"auto 0"
+ 
+ <div
+        id="hero"
+        className="flex flex-col justify-center items-center"
+        style={{
+          width: "100%",
+          height: "60vh", // Set a fixed height for the hero section
+          background: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), 
+                 linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)),
+                 url(${heroImage})`,
+          backgroundSize: "cover", // Ensure the background image covers the entire section
+          backgroundPosition: "center", // Keep the image centered
+        }}
+      >
+        <div
+          id="hero-container"
+          className="max-w-4xl mx-auto px-6 pb-32 flex flex-col sm:items-start sm:text-left md:hidden justify-center gap-8"
+          style={{
+            marginTop: "120px",
+          }}
+        >
+          {/* Heading Section */}
+          <div className="flex gap-4 flex-col">
+            <h1 className="text-3xl sm:text-4xl font-bold text-center sm:text-left text-white">
+              Are You a Supplier?
+            </h1>
+            <h2 className="text-2xl sm:text-4xl font-normal text-center sm:text-left text-white">
+              Explore Matching Opportunities.
+            </h2>
+          </div>
+
+          {/* Input and Button Section */}
+          <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4">
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{
+                height: "50px",
+                backgroundImage: `url(${sent})`,
+                backgroundSize: "20px 20px", // Adjust the size of the icon
+                backgroundPosition: "left 10px center", // Position the icon on the left, adjust spacing
+                backgroundRepeat: "no-repeat",
+                paddingLeft: "35px", // Adjust this so text doesn't overlap the icon
+              }}
+            />
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-6 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{
+                height: "50px",
+                backgroundImage: `url(${address})`,
+                backgroundSize: "20px 20px", // Adjust the size of the icon
+                backgroundPosition: "left 10px center", // Position the icon on the left, adjust spacing
+                backgroundRepeat: "no-repeat",
+                paddingLeft: "35px", // Adjust this so text doesn't overlap the icon
+              }}
+            />
+            <button
+              className="w-full sm:w-[15%] h-12 bg-[#00732f] text-white font-bold rounded-lg border border-black"
+              style={{ height: "54px" }}
+            >
+              Search
+            </button>
+          </div>
+
+          <div className="hero-footer">
+            <b>Are you a buyer?</b>
+            <a>Click here if you are looking to post a requirements</a>
+          </div>
+        </div>
+      </div>
+ 
+
+                padding:"4px"
+ 
+
+              style={{}}
+ 
+placeholder 1.png
+ 
+<input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your desired location here"
+              style={{ height: "50px" }}
+            />
+ 
+<input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{ height: "50px" }}
+            />
+ 
+<div className="relative w-full sm:w-[45%]">
+              <input
+                className="w-full h-12 px-8 py-3 rounded-lg border border-black text-black pl-12"
+                placeholder="Search your required service here"
+                style={{
+                  backgroundImage: `url(${sent})`,
+                  backgroundSize: "18px",
+                  backgroundPosition: "15px center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              />
+            </div>
+ 
+class
+ 
+  <div class="relative w-full sm:w-[45%]">
+              <input
+                class="w-full h-12 px-8 py-3 rounded-lg border border-black text-black pl-12"
+                placeholder="Search your required service here"
+                style="background-image: url(${sent}); background-size: 18px; background-position: 15px center; background-repeat: no-repeat;"
+              />
+            </div>
+ 
+../assets/suitcase 1.png
+ 
+          {/* Input and Button Section */}
+          <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4">
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{ height: "50px" }}
+            />
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your desired location here"
+              style={{ height: "50px" }}
+            />
+            <button
+              className="w-full sm:w-[15%] h-12 bg-[#00732f] text-white font-bold rounded-lg border border-black"
+              style={{ height: "54px" }}
+            >
+              Search
+            </button>
+          </div>
+ 
+
+              <img src/>
+ 
+,
+              <img />
+ 
+"url('../assets/suitcase 1.png')"
+ 
+ <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center gap-4">
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{ height: "50px" }}
+            />
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your desired location here"
+              style={{ height: "50px" }}
+            />
+            <button
+              className="w-full sm:w-[15%] h-12 bg-[#00732f] text-white font-bold rounded-lg border border-black"
+              style={{ height: "54px" }}
+            >
+              Search
+            </button>
+          </div>
+ 
+"/images/sent.png"
+ 
+<input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{ height: "50px" }}
+            />
+ 
+
+          style={{
+            marginTop: "70px",
+          }}
+ 
+ <div
+        id="hero"
+        className="min-h-screen flex flex-col justify-center items-center"
+        style={{
+          width: "100%",
+          minHeight: "40vh",
+          background: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), 
+                 linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)),
+                 url(${heroImage})`,
+        }}
+ 
+
+            gap:"10px"
+ 
+./Asessts/hero-habot.PNG
+ 
+../Asessts/hero-habot.PNG
+ 
+path/to/your/image.jpg
+ 
+<div
+        id="hero"
+        className="min-h-screen bg-black-600 flex flex-col justify-center items-center"
+        style={{
+          width:"100%",
+          minHeight: "523px",
+          background:"linear-gradient(356.01deg,rgba(7, 47, 87, 0.75) 50.8%,rgba(7, 47, 87, 0) 94.58%),linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)),url("")}}
+      >
+ 
+backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+          backgroundPosition: 'center', // Ensures the image is centered
+ 
+tyle={{
+          backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+        }}
+ 
+style={{
+          backgroundImage: `url(${heroImage})`,
+        }}
+ 
+ style={{
+            backgroundImage:`url('src/Pages/Asessts/hero-habot.PNG')`,
+        }}
+ 
+      <div
+        id="hero"
+        className="min-h-screen bg-black-600 flex flex-col justify-center items-center"
+      >
+        <div
+          id="hero-container"
+          className="max-w-4xl mx-auto px-6 pb-32 flex flex-col gap-8 sm:items-start sm:text-left"
+        >
+          {/* Heading Section */}
+          <h1 className="text-3xl sm:text-4xl font-bold text-center sm:text-left text-black mt-8">
+            Are You a Supplier?
+          </h1>
+          <h2 className="text-2xl sm:text-4xl font-normal text-center sm:text-left text-black">
+            Explore Matching Opportunities.
+          </h2>
+
+          {/* Input and Button Section */}
+          <div className="flex flex-col gap-4 sm:flex-row sm:justify-center sm:items-center mt-8">
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your required service here"
+              style={{ height: "50px" }}
+            />
+            <input
+              className="w-full sm:w-[45%] h-12 px-8 py-3 rounded-lg border border-black text-black"
+              placeholder="Search your desired location here"
+              style={{ height: "50px" }}
+            />
+            <button
+              className="w-full sm:w-[15%] h-12 bg-[#00732f] text-white font-bold rounded-lg border border-black"
+              style={{ height: "54px" }}
+            >
+              Search
+            </button>
+          </div>
+          <div className="hero-footer">
+            <b>Are you a buyer?</b>
+            <a>Click here if you are looking to post a requirements</a>
+          </div>
+        </div>
+      </div>
+ 
+
+{
+ 
+}
+
+ 
+ <div id="hero" className="min-h-screen bg-black-600">
+        <div
+          id="hero-container"
+          className="max-w-4xl mx-auto px-6 pb-32 flex flex-col gap-4 sm:items-center sm:text-center"
+        >
+          <h1
+            className="flex items-center"
+            style={{
+              marginTop: "30px",
+              fontSize: "35px",
+              color: "black",
+              fontWeight: "700",
+              textAlign: "center",
+            }}
+          >
+            Are You a Supplier?
+          </h1>
+          <h2
+            style={{
+              fontSize: "40px",
+              color: "black",
+              fontWeight: "400",
+              lineHeight: "66px",
+            }}
+          >
+            Explore Matching Opportunities.
+          </h2>
+          <div className="flex flex-col gap-4 sm:flex-row">
+            <input
+              className="px-8 py-3 rounded-lg"
+              placeholder="Search your required service here"
+              style={{
+                height: "50px",
+                border: "1px solid black",
+              }}
+            />
+            <input
+              className="icon-input"
+              placeholder="Search your desired location here"
+              style={{
+                height: "50px",
+                border: "1px solid black",
+              }}
+            />
+            <button
+              className="hero-btn"
+              style={{
+                border: "1px solid black",
+                height: "54px",
+              }}
+            >
+              Search
+            </button>
+          </div>
+        </div>
+      </div>
+ 
+
+              marginTop: "30px",
+ 
+
+                width: "100%",
+ 
+icon-input
+ 
+input-section
+ 
+
+                width: "50%",
+ 
+
+                width: "100%",
+ 
+ <h3>Are you a buyer?</h3>
+              <a>Click here if you are looking to post a requirements</a>
+ 
+
+            </span>
+ 
+
+            <span>
+ 
+import { width } from "@fortawesome/free-solid-svg-icons/fa0";
+
+ 
+
+          <input></input>
+ 
+@layer base{
+    body{
+        @apply font-body;
+    }
+}
+ 
+
+    <div
+      className="hero container py-8 flex flex-col justify-center items-center"
+      style={{
+        background: "linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url('../assets/hero-habot.PNG')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      <div className="hero-text text-center max-w-[935px] mb-4 mt-8">
+        <h1 className="text-white text-3xl font-semibold mb-2 mt-6">Are You a Supplier?</h1>
+        <h3 className="text-white text-4xl font-light">Explore Matching Opportunities.</h3>
+      </div>
+
+      <div className="hero-inputs flex justify-center items-center space-x-4 mt-6 max-w-[935px] w-full">
+        <input
+          className="icon-input px-4 py-3 rounded-lg border border-transparent bg-white text-black placeholder-black w-1/2 sm:w-full"
+          placeholder="Search your required service here"
+          style={{
+            backgroundImage: "url('../assets/suitcase 1.png')",
+            backgroundSize: "18px",
+            backgroundPosition: "15px center",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+        <input
+          className="icon-input px-4 py-3 rounded-lg border border-transparent bg-white text-black placeholder-black w-1/2 sm:w-full"
+          placeholder="Search your desired location here"
+          style={{
+            backgroundImage: "url('../assets/placeholder 1.png')",
+            backgroundSize: "18px",
+            backgroundPosition: "15px center",
+            backgroundRepeat: "no-repeat",
+          }}
+        />
+        <button
+          className="hero-btn bg-[#00732f] text-white py-3 px-6 rounded-lg font-bold w-1/4 sm:w-full"
+          style={{ width: "120px", height: "56px" }}
+        >
+          Search
+        </button>
+      </div>
+
+      <div className="hero-footer text-center mt-6">
+        <b className="text-white text-lg font-bold">Are you a buyer?</b>
+        <a href="#" className="text-white underline ml-2 text-lg">
+          Click here if you are looking to post a requirement
+        </a>
+      </div>
+ 
+HeroSection
+ 
+import React from "react";
+
+function Hero() {
+  return (
+    // Hero section
+    <main>
+      <div id="hero" className="min-h-screen bg-black-600">
+        <div
+          className="hero container bg-cover bg-center relative py-8 px-4 flex flex-col justify-center items-center"
+          style="background: linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url('../assets/hero-habot.PNG');"
+        >
+          <div className="hero-text text-center max-w-[935px] mb-4 mt-8">
+            <h1 className="text-white text-3xl font-semibold mb-2 mt-6">
+              Are You a Supplier?
+            </h1>
+            <h3 className="text-white text-4xl font-light">
+              Explore Matching Opportunities.
+            </h3>
+          </div>
+
+          <div className="hero-inputs flex justify-center items-center space-x-4 mt-6 max-w-[935px] w-full">
+            <input
+              className="icon-input px-4 py-3 rounded-lg border border-transparent bg-white text-black placeholder-black w-1/2 sm:w-full"
+              placeholder="Search your required service here"
+              style="background-image: url('../assets/suitcase 1.png'); background-size: 18px; background-position: 15px center; background-repeat: no-repeat;"
+            />
+            <input
+              className="icon-input px-4 py-3 rounded-lg border border-transparent bg-white text-black placeholder-black w-1/2 sm:w-full"
+              placeholder="Search your desired location here"
+              style="background-image: url('../assets/placeholder 1.png'); background-size: 18px; background-position: 15px center; background-repeat: no-repeat;"
+            />
+            <button className="hero-btn bg-[#00732f] text-white py-3 px-6 rounded-lg font-bold w-1/4 sm:w-full">
+              Search
+            </button>
+          </div>
+
+          <div className="hero-footer text-center mt-6">
+            <b className="text-white text-lg font-bold">Are you a buyer?</b>
+            <a href="#" className="text-white underline ml-2 text-lg">
+              Click here if you are looking to post a requirement
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
+
+export default Hero;
+
+ 
+class
+ 
+hero" className='
+ 
+'./Pages/Home/Home
+ 
 // import {
 //   Disclosure,
 //   DisclosureButton,

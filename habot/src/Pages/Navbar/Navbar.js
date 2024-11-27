@@ -21,7 +21,7 @@ export default function Example() {
 
   return (
     <nav
-      className="px-8 py-2 flex justify-between items-center"
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
       style={{
         height: "65px",
         background: "gray",
@@ -101,25 +101,36 @@ export default function Example() {
       {isMenuOpen && (
         <div
           id="nav-dailoge"
-          className="fixed bg-white inset-0 px-6 md:hidden"
+          className="fixed inset-0 px-6 md:hidden"
+          style={{
+            height: "40vh",
+            width: "90%", // width as per your original setup
+            marginTop: "65px",
+            marginLeft: "20px",
+            borderRadius: "20px", // Rounded corners
+            backgroundColor: "white", // White background
+            border: "1px solid rgba(0, 0, 0, 0.1)", // Light border with a soft color
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)", // Soft shadow effect
+            padding: "20px", // Padding inside the box
+          }}
         >
           <div id="nav-bar" className="flex justify-between items-center">
-            {/* Left: Logo */}
-            <a href="#" className="flex gap-2 items-center">
-              <img
-                alt="Habot Logo"
-                src={logo} // Update with actual logo path
-                style={{
-                  width: "100px",
-                  height: "auto",
-                }}
-              />
-            </a>
+            {/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
 
-            {/* Right: Button to close menu */}
-            <button className="p-2 md:hidden" onClick={handleMenu}>
-              <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
-            </button>
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
           </div>
 
           {/* Mobile menu content */}
