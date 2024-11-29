@@ -5,12 +5,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-     screens: {
-        'sm': '567px',   // For small mobile devices
-        'md': '768px',   // For tablets
-        'lg': '1024px',  // For laptops
-        '2xl': '1280px', // For larger desktops
-      },
       fontSize: {
         'sm': '0.75rem',   // Small size 12px
         'base': '0.875rem', // Base size 14px
