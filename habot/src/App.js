@@ -4,16 +4,18 @@ import Hero from './Pages/Hero/Hero'
 import './input.css'
 import Dashboard from './Pages/Dashboard/Dashboard'
 import YtDashboard from './Pages/YtDashboard/YtDashboard'
+import BuyersPost from './Pages/BuyersPost/BuyersPost'
 
 
 function App() {
   const videoId = "i8tgRHXx4oQ";
   return (
     <div>
-    <Navbar></Navbar>
+    {/* <Navbar></Navbar>
     <Hero></Hero>
-    <Dashboard></Dashboard>
-    <YtDashboard videoId={videoId}></YtDashboard>
+    <Dashboard></Dashboard> */}
+    {/* <YtDashboard videoId={videoId}></YtDashboard> */}
+    <BuyersPost></BuyersPost>
     </div>
   )
 }
