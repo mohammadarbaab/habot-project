@@ -5,6 +5,7 @@ import './input.css'
 import Dashboard from './Pages/Dashboard/Dashboard'
 import YtDashboard from './Pages/YtDashboard/YtDashboard'
 import BuyersPost from './Pages/BuyersPost/BuyersPost'
+import GetVefified from './Pages/GetVerified/GetVefified'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <Hero></Hero>
     <Dashboard></Dashboard> */}
     {/* <YtDashboard videoId={videoId}></YtDashboard> */}
-    <BuyersPost></BuyersPost>
+    {/* <BuyersPost></BuyersPost> */}
+    <GetVefified></GetVefified>
     </div>
   )
 }

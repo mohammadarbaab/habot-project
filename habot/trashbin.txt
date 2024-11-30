@@ -1,3 +1,68 @@
+  <div className="w-full h-[200px] flex flex-col md:flex-row justify-between items-center bg-[#E8FBFF] md:pl-[100px] md:pr-[140px] px-4 py-4">
+    <h1 className="text-[37px] font-[600] leading-[40px] text-center md:text-left">
+      Let Suppliers Find You
+    </h1>
+    <button className="w-[216px] h-[54px] rounded-[5px] bg-[#EB7150] mt-4 md:mt-0">
+  Get Verified
+</button>
+
+  </div>
+ 
+<button className="w-[216px] md:w-[216px] h-[54px] rounded-[5px] bg-[#EB7150] mt-4 md:mt-0">
+      Get Verified
+    </button>
+ 
+ <div className="w-full h-[200px] flex flex-wrap bg-[#E8FBFF] justify-between items-center md:pl-[100px] md:pr-[140px]">
+      <h1 className="text-[37px] font-[600] leading-[40px]">
+        Let Suppliers Find You
+      </h1>
+      <button className="w-[216px] h-[54px] rounded-[5px] bg-[#EB7150] ">
+        Get Verified
+      </button>
+    </div>
+ 
+px-24
+ 
+
+      </div>
+ 
+
+      <div className="flex flex-col justify-center items bg-orange-950 w-full md:w-[50%]">
+ 
+
+      </div>
+ 
+
+      <div className="flex flex-col justify-center items bg-orange-300 w-full md:w-[50%]">
+ 
+
+      </div>
+ 
+
+      <div className="flex flex-col justify-center items bg-orange-950 w-full md:w-[50%]">
+ 
+
+      <div className="flex flex-col justify-center items bg-orange-300 w-full md:w-[50%]">
+ 
+<h1 className="text-[37px] font-[600] leading-[40px] text-center">
+          Let Suppliers Find You
+        </h1>
+ 
+text-center
+ 
+ <div className="w-full h-[200px] flex flex-wrap flex-cols-2 bg-[#E8FBFF]">
+      <div className="flex flex-wrap flex-col justify-center items bg-orange-300 w-[50%]">
+        <h1 className="text-[37px] font-[600] leading-[40px]">
+          Let Suppliers Find You
+        </h1>
+      </div>
+      <div className="flex flex-wrap flex-col justify-center items bg-orange-950 w-[50%] ">
+        <h1 className="text-[37px] font-[600] leading-[40px]">
+          Let Suppliers Find You
+        </h1>
+      </div>
+    </div>
+ 
 border border-[5px solid gray]
  
 md:bg-[#E8FBFF]
