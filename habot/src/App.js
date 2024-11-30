@@ -6,6 +6,7 @@ import Dashboard from './Pages/Dashboard/Dashboard'
 import YtDashboard from './Pages/YtDashboard/YtDashboard'
 import BuyersPost from './Pages/BuyersPost/BuyersPost'
 import GetVefified from './Pages/GetVerified/GetVefified'
+import Footer from './Pages/Footer/Footer'
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
     <Dashboard></Dashboard> */}
     {/* <YtDashboard videoId={videoId}></YtDashboard> */}
     {/* <BuyersPost></BuyersPost> */}
-    <GetVefified></GetVefified>
+    {/* <GetVefified></GetVefified> */}
+    <Footer></Footer>
     </div>
   )
 }

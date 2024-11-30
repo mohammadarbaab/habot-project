@@ -1,3 +1,239 @@
+bg-red-500
+ 
+ bg-orange-400
+ 
+
+        </div>
+ 
+<div className="flex flex-col md:flex-row lg:flex-row flex-wrap md:gap-16 lg:gap-16 md:justify-center sm:justify-center">
+ 
+flex flex-col gap-[7px] mt-[20px]
+ 
+flex flex-col gap-[7px] mt-[20px]
+ 
+ <div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center">
+      <div className="w-full md:w-[1200px] flex flex-col md:flex-row flex-wrap justify-between md:px-2 bg-[gray] text-white lg:h-[150px]  h-auto border-t-[1px] border-b-[1px] border-solid border-[#FFFFFF33] ">
+        <div className="flex flex-row flex-wrap gap-16 bg-orange-400">
+          <div className="justify-center flex flex-col gap-2 mt-6">
+            <img src={footerLogo} alt="logo" className="w-[206px]" />
+            <p className="text-16px font-[300] leading-[32px] ml-3 mt">
+              © R Singhania
+            </p>
+          </div>
+          <div className="flex flex-col gap-[7px] mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Company
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">About</p>
+              <p className="text-[14px] font-[300] leading-[25px]">FAQ</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">Terms</h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Data privacy
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Terms</p>
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Accessibility
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Related
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Find Buyer
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Feedback</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row flex-wrap gap-4 items-center pl-4 bg-red-500">
+          <a href="#">
+            <img src={linkdln} />
+          </a>
+          <a href="#">
+            <img src={x} />
+          </a>
+          <a href="#">
+            <img src={fb} />
+          </a>
+          <a href="#">
+            <img src={instagram} />
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+ <div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center">
+      <div className="w-full md:w-[1200px] flex flex-col md:flex-row flex-wrap justify-between md:px-2 bg-[gray] text-white lg:h-[150px]  h-auto border-t-[1px] border-b-[1px] border-solid border-[#FFFFFF33] ">
+        <div className="flex flex-row flex-wrap gap-16 bg-orange-400">
+          <div className="justify-center flex flex-col gap-2 mt-6">
+            <img src={footerLogo} alt="logo" className="w-[206px]" />
+            <p className="text-16px font-[300] leading-[32px] ml-3 mt">
+              © R Singhania
+            </p>
+          </div>
+          <div className="flex flex-col gap-[7px] mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Company
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">About</p>
+              <p className="text-[14px] font-[300] leading-[25px]">FAQ</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">Terms</h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Data privacy
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Terms</p>
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Accessibility
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Related
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Find Buyer
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Feedback</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row flex-wrap gap-4 items-center pl-4 bg-red-500">
+          <a href="#">
+            <img src={linkdln} />
+          </a>
+          <a href="#">
+            <img src={x} />
+          </a>
+          <a href="#">
+            <img src={fb} />
+          </a>
+          <a href="#">
+            <img src={instagram} />
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+ <div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center">
+      <div className="w-full md:w-[1200px] flex flex-col md:flex-row flex-wrap justify-between md:px-2 bg-[gray] text-white lg:h-[150px]  h-auto border-t-[1px] border-b-[1px] border-solid border-[#FFFFFF33] ">
+        <div className="flex flex-row flex-wrap gap-16 bg-orange-400">
+          <div className="justify-center flex flex-col gap-2 mt-6">
+            <img src={footerLogo} alt="logo" className="w-[206px]" />
+            <p className="text-16px font-[300] leading-[32px] ml-3 mt">
+              © R Singhania
+            </p>
+          </div>
+          <div className="flex flex-col gap-[7px] mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Company
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">About</p>
+              <p className="text-[14px] font-[300] leading-[25px]">FAQ</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">Terms</h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Data privacy
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Terms</p>
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Accessibility
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Related
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Find Buyer
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Feedback</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row flex-wrap gap-4 items-center pl-4 bg-red-500">
+          <a href="#">
+            <img src={linkdln} />
+          </a>
+          <a href="#">
+            <img src={x} />
+          </a>
+          <a href="#">
+            <img src={fb} />
+          </a>
+          <a href="#">
+            <img src={instagram} />
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+md:px-2
+ 
+ border
+ 
+mt-[20px]
+ 
+d:px-12
+ 
+bg-[#123557] text-white
+ 
+md:px-12
+ 
+border border-[1px solid black]
+ 
+ <div className="flex flex-col gap-4">
+          <h1 className="text-[15.13px] font-[700] leading-[24px]">Related</h1>
+          <p className="text-[14px] font-[300] leading-[25px]">Find Buyer</p>
+          <p className="text-[14px] font-[300] leading-[25px]">Feedback</p>
+        </div>
+ 
+        <div className="flex flex-col gap-[7px] mt-2">
+          <h1 className="text-[15.13px] font-[700] leading-[24px]">Company</h1>
+          <div className="flex flex-col gap-[2px]">
+            <p className="text-[14px] font-[300] leading-[25px]">About</p>
+            <p className="text-[14px] font-[300] leading-[25px]">FAQ</p>
+          </div>
+        </div>
+ 
+<img src=" " alt="logo1"></img>
+        <img src=" " alt="logo2"></img>
+        <img src=" " alt="logo3"></img>
+        <img src=" " alt="logo4"></img>
+ 
+
+        <div className="">
+          <h1>terms</h1>
+          <p>p1</p>
+        </div>
+        <div className="">
+          <h1>releted</h1>
+          <p>p1</p>
+        </div>
+ 
   <div className="w-full h-[200px] flex flex-col md:flex-row justify-between items-center bg-[#E8FBFF] md:pl-[100px] md:pr-[140px] px-4 py-4">
     <h1 className="text-[37px] font-[600] leading-[40px] text-center md:text-left">
       Let Suppliers Find You
