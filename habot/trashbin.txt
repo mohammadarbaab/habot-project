@@ -1,3 +1,705 @@
+bg-stone-700
+ 
+bg-orange-700
+ 
+
+      <>
+        {/* <div className="w-[90%] h-auto md:h-[523px] mx-auto flex flex-col lg:flex-row lg:mb-2 bg-[#072F57] p-4 md:p-10 md:gap-10 ">
+        <div className="w-full lg:ml-4 md:w-1/2 flex justify-center items-center bg-blue-600">
+          <iframe
+            src={`https://www.youtube.com/embed/${videoId}`}
+            alt=""
+            style={{
+              top: 0,
+              left: 0,
+              width: '550px',
+              height: '310px',
+              borderRadius: '5px',
+            }}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="YouTube video"
+          ></iframe>
+        </div>
+
+        <div className="w-full md:w-1/2 flex flex-col  lg:h-[310px] md:mt-16 xl:ml-[30px] ">
+          <div className="flex flex-row lg:gap-10 bg-red-500 flex-wrap">
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] md:leading-[32px] text-[#EB7150]">
+              Buyer
+              <div className="md:w-[80px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+            </h1>
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] :leading-[32px] bg-gray-400 text-white">
+              Supplier
+              <div className="md:w-[100px] lg:w-[202px]  mt-[10px] h-[0.5px]"></div>
+            </h1>
+          </div>
+
+          <div className="xl:mt-4 bg-green-500">
+            <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Post your requirements.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full md:w-[90%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Sit back for multiple suppliers to contact you.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the{' '}
+                <span className="block mt-2">rating and reviews.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+        {/* Tailwind code */}
+        {/* <div className="h-auto md:h-[523px] w-[90%] mx-auto flex bg-[#072F57] flex-wrap flex-col justify-center">
+        <div className="w-full lg:w-full h-auto lg:h-[523px] flex flex-wrap mx-auto md:gap-0 md:flex-row lg:flex-row flex-col lg:gap-10">
+          <div className="h-auto lg:w-[50%] w-full flex flex-wrap items-center justify-center">
+            <iframe
+              src={`https://www.youtube.com/embed/${videoId}`}
+              alt=""
+              className="w-full lg:w-[550px] lg:h-[310px] rounded-lg"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="YouTube video"
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col lg:mt-0 lg:ml-10">
+            <div className="mb-4 flex flex-row md:gap-10 justify-center lg:justify-start">
+              <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-[#EB7150]">
+                Buyer
+                <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+              </h1>
+              <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-white">
+                Supplier
+                <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px]"></div>
+              </h1>
+            </div>
+
+            <div className="flex flex-col gap-3 mt-4">
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Post your requirements.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Sit back for multiple suppliers to contact you.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Choose among the suppliers based on the{' '}
+                  <span className="block mt-2">rating and reviews.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
+      </>
+
+ 
+<div className="lg:w-[100%] md:w-[35%] sm:w-[50%] w-[100%] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+ 
+ <div className="lg:w-[100%] h-auto flex lg:flex-col flex-row lg:mt-8">
+              <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Post your requirements.
+                </div>
+              </div>
+              <div className="flex items-start mb-3 w-full md:w-[100%] xl:w-full">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Sit back for multiple suppliers to contact you.
+                </div>
+              </div>
+              <div className="flex items-start mb-3 w-full">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Choose among the suppliers based on the{' '}
+                  <span className="inline-block">rating and reviews.</span>
+                </div>
+              </div>
+            </div>
+ 
+bg-orange-400
+ 
+ <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the rating and reviews.
+              </div>
+            </div>
+ 
+ <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the rating and reviews.
+              </div>
+            </div>
+ 
+
+                <span className="mt-2"></span>
+ 
+
+                </div>
+ 
+
+                <div>
+ 
+lg:px-20
+ 
+lg:px-20
+ 
+<div className="w-full lg:w-[100%] lg:h-[47px] h-auto flex-wrap justify-between flex lg:px-20 ">
+                <h1 className="font-[700] text-[26px] leading-[32px] text-[#EB7150] ">
+                  Buyer
+                  <div className="lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+                </h1>
+                <h1 className="font-[700] text-[26px] leading-[32px] text-[white]">
+                  Supplier
+                  <div className=""></div>
+                </h1>
+              </div>
+ 
+ border-b-4 border-[#EB7150]
+ 
+md:w-[80px]
+ 
+
+                  <div className=""></div>
+ 
+md:w-[100px] lg:w-[202px]  mt-[10px] h-[0.5px]
+ 
+text-[20px] text-center md:text-[26px] font-[700] :leading-[32px] bg-gray-400 text-white
+ 
+md:w-[80px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]
+ 
+text-[20px] text-center md:text-[26px] font-[700] md:leading-[32px] text-[#EB7150]
+ 
+
+            <div className="flex lg:flex-row lg:justify-between lg:items-center">
+ 
+
+            </div>
+ 
+
+            <div className="flex lg:flex-row lg:justify-between lg:items-center">
+ 
+<h1></h1>
+ 
+md
+ 
+
+          </div>
+ 
+
+          <div className="">
+ 
+
+            style={{
+            }}
+ 
+
+              top: 0,
+              left: 0,
+              width: '',
+              height: '310px',
+              borderRadius: '5px',
+ 
+
+      <div className></div>
+ 
+<div className="w-full md:w-1/2 flex flex-col  lg:h-[310px] md:mt-16 xl:ml-[30px] ">
+          <div className="flex flex-row lg:gap-10 bg-red-500 flex-wrap">
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] md:leading-[32px] text-[#EB7150]">
+              Buyer
+              <div className="md:w-[80px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+            </h1>
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] lg:leading-[32px] bg-gray-400 text-white">
+              Supplier
+              <div className="md:w-[100px] lg:w-[202px]  mt-[10px] h-[0.5px]"></div>
+            </h1>
+          </div>
+
+          <div className="xl:mt-4 bg-green-500">
+            <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Post your requirements.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full md:w-[90%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Sit back for multiple suppliers to contact you.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the{' '}
+                <span className="block mt-2">rating and reviews.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+md:text-[26px]
+ 
+ md:w-[90%]
+ 
+ md:w-[90%]
+ 
+mb-4
+ 
+ <div className="flex flex-col lg:flex-row items-center justify-center bg-[#072F57] p-6">
+        {/* Video Section */}
+        <div className="w-full md:w-1/2 p-4">
+          <div className="aspect-w-16 aspect-h-9">
+            <iframe
+              className="w-full h-full lg:h-[310px] lg:w-[550px] flex flex-wrap"
+              src={`https://www.youtube.com/embed/${videoId}`}
+              title="Video"
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+
+        {/* Content Section */}
+        <div className="w-full md:w-1/2 p-4 text-white">
+        <div className="w-full md:w-1/2 flex flex-col  lg:h-[310px] md:mt-16 xl:ml-[30px] ">
+          <div className="mb-4 flex flex-row md:gap-10 ">
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-[#EB7150]">
+              Buyer
+              <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+            </h1>
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-white">
+              Supplier
+              <div className="md:w-[100px] lg:w-[202px]  mt-[10px] h-[0.5px]"></div>
+            </h1>
+          </div>
+
+          <div className="xl:mt-4">
+            <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Post your requirements.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full md:w-[90%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Sit back for multiple suppliers to contact you.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the{' '}
+                <span className="block mt-2">rating and reviews.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+ 
+ <div className="text-center md:text-left bg-red-500 flex flex-col flex-wrap">
+            <h2 className="text-orange-500 text-lg font-bold mb-4">
+              Buyer <span className="text-gray-300">Supplier</span>
+            </h2>
+            <ul className="list-disc ml-6 space-y-2">
+              <li>Post your requirements.</li>
+              <li>Sit back for multiple suppliers to contact you.</li>
+              <li>
+                Choose among the suppliers based on the ratings and reviews.
+              </li>
+            </ul>
+          </div>
+ 
+md:text-left
+ 
+https://www.youtube.com/embed/VIDEO_ID
+ 
+
+import React from "react";
+
+const ResponsiveSection = () => {
+  return (
+ 
+
+export default ResponsiveSection;
+ 
+<div className="h-auto md:h-[523px] w-[90%] mx-auto flex bg-[#072F57] flex-wrap flex-col justify-center">
+        <div className="w-full  lg:w-[90%] h-auto lg:h-[523px] flex flex-wrap mx-auto md:gap-0 md:flex-row lg:flex-row flex-col lg:gap-10">
+          <div className="h-auto lg:w-[50%] w-full flex flex-wrap items-center justify-center">
+            <iframe
+              src={`https://www.youtube.com/embed/${videoId}`}
+              alt=""
+              className="w-full lg:w-[550px] lg:h-[310px] rounded-lg"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="YouTube video"
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col lg:mt-[100px] lg:ml-10">
+            <div className="mb-4 flex flex-row md:gap-10 justify-center lg:justify-start">
+              <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-[#EB7150]">
+                Buyer
+                <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+              </h1>
+              <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-white">
+                Supplier
+                <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px]"></div>
+              </h1>
+            </div>
+
+            <div className="flex flex-col gap-3 mt-4">
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Post your requirements.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Sit back for multiple suppliers to contact you.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Choose among the suppliers based on the{' '}
+                  <span className="block mt-2">rating and reviews.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+<div className="h-auto md:h-[523px] w-[90%] mx-auto flex bg-[#072F57] flex-wrap flex-col justify-center">
+        <div className="w-full  lg:w-[90%] h-auto lg:h-[523px] flex flex-wrap mx-auto md:gap-0 md:flex-row lg:flex-row flex-col lg:gap-10">
+          <div className="h-auto lg:w-[50%] w-full flex flex-wrap items-center justify-center">
+            <iframe
+              src={`https://www.youtube.com/embed/${videoId}`}
+              alt=""
+              className="w-full lg:w-[550px] lg:h-[310px] rounded-lg"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="YouTube video"
+            ></iframe>
+          </div>
+
+          <div className="flex flex-col lg:mt-[100px] lg:ml-10">
+            <div className="mb-4 flex flex-row md:gap-10 justify-center lg:justify-start">
+              <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-[#EB7150]">
+                Buyer
+                <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+              </h1>
+              <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-white">
+                Supplier
+                <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px]"></div>
+              </h1>
+            </div>
+
+            <div className="flex flex-col gap-3 mt-4">
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Post your requirements.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Sit back for multiple suppliers to contact you.
+                </div>
+              </div>
+              <div className="flex items-start">
+                <img
+                  src={check}
+                  className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+                />
+                <div className="flex-1 text-white text-[18px] font-[500]">
+                  Choose among the suppliers based on the{' '}
+                  <span className="block mt-2">rating and reviews.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+ <div className="h-auto md:h-[523px] w-[90%] mx-auto flex bg-[#072F57] flex-wrap flex-col justify-center ">
+        <div className="w-[90%] h-auto lg:h-[523px]  flex flex-wrap mx-auto md:flex-row lg:flex-row flex-col md:gap-10">
+          <div className="h-auto lg:w-[50%] w-full flex flex-wrap items-center justify-center">
+          <iframe
+            src={`https://www.youtube.com/embed/${videoId}`}
+            alt=""
+            style={{
+              top: 0,
+              left: 0,
+              width: '550px',
+              height: '310px',
+              borderRadius: '5px',
+            }}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="YouTube video"
+          ></iframe>
+          </div>
+          <div className="flex flex-col mt-28">
+          <div className="mb-4 flex flex-row md:gap-10 ">
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-[#EB7150]">
+              Buyer
+              <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+            </h1>
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-white">
+              Supplier
+              <div className="md:w-[100px] lg:w-[202px]  mt-[10px] h-[0.5px]"></div>
+            </h1>
+          </div>
+
+            <div className="flex items-start mb-3 md:w-[80%] lg:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Post your requirements.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full md:w-[90%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Sit back for multiple suppliers to contact you.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the{' '}
+                <span className="block mt-2">rating and reviews.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+h-auto
+ 
+
+          <div className="">
+ 
+
+          </div>
+ 
+
+          <div className="">
+ 
+
+          </div>
+ 
+
+          <div className="">
+ 
+ w-full flex flex-wrap
+ 
+bg-orange-600
+ 
+bg-orange-300
+ 
+gap-[40px]
+ 
+ <div className="max-w-md h-auto md:h-[523px] flex-wrap mx-auto bg-[#072F57] rounded-xl shadow-md overflow-hidden md:max-w-[90%]">
+        <div className="md:flex">
+          <div className="md:shrink-0">
+          <iframe
+            src={`https://www.youtube.com/embed/${videoId}`}
+            alt=""
+            style={{
+              top: 0,
+              left: 0,
+              width: '550px',
+              height: '310px',
+              borderRadius: '5px',
+            }}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            title="YouTube video"
+          ></iframe>
+          </div>
+          <div className="p-8">
+          <div className="mb-4 flex flex-row md:gap-10 ">
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-[#EB7150]">
+              Buyer
+              <div className="md:w-[100px] lg:w-[202px] mt-[10px] h-[0.5px] border-b-4 border-[#EB7150]"></div>
+            </h1>
+            <h1 className="text-[20px] text-center md:text-[26px] font-[700] leading-[32px] text-white">
+              Supplier
+              <div className="md:w-[100px] lg:w-[202px]  mt-[10px] h-[0.5px]"></div>
+            </h1>
+          </div>
+
+          <div className="xl:mt-4">
+            <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Post your requirements.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full md:w-[90%] xl:w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Sit back for multiple suppliers to contact you.
+              </div>
+            </div>
+            <div className="flex items-start mb-3 w-full">
+              <img
+                src={check}
+                className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
+              />
+              <div className="flex-1 text-white text-[18px] font-[500]">
+                Choose among the suppliers based on the{' '}
+                <span className="block mt-2">rating and reviews.</span>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+ 
+ <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+              Company retreats
+            </div>
+            <a
+              href="#"
+              className="block mt-1 text-lg leading-tight font-medium text-black hover:underline"
+            >
+              Incredible accommodation for your team
+            </a>
+            <p className="mt-2 text-slate-500">
+              Looking to take your team away on a retreat to enjoy awesome food
+              and take in some sunshine? We have a list of places to do just
+              that.
+            </p>
+ 
+<img
+              className="h-48 w-full object-cover md:h-full md:w-48"
+              src="/img/building.jpg"
+              alt="Modern building architecture"
+            />
+ 
+ <img
+              className="h-48 w-full object-cover md:h-full md:w-48"
+              src="/img/building.jpg"
+              alt="Modern building architecture"
+            />
+ 
+class
+ 
 bg-red-500
  
  bg-orange-400
