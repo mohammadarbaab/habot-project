@@ -57,7 +57,7 @@ function Hero() {
     //   </div>
     // </main> */}
       <div
-        className="flex lg:justify-center lg:items-center justify-center items-center flex-wrap flex-row lg:h-[509px] md:h[509px] lg:[509px] bg-orange-300 text-white h-[509px] "
+        className="flex w-[100%] lg:justify-center lg:items-center justify-center items-center flex-wrap flex-row lg:h-[509px] md:h[509px] lg:[509px] bg-orange-300 text-white h-[509px] overflow-x-hidden"
         style={{
           backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${bgImage})`,
           backgroundSize: 'cover',
@@ -65,7 +65,7 @@ function Hero() {
         }}
       >
         <div className="flex flex-col flex-wrap lg:justify-center md:items-center lg:gap-7 md:gap-7 gap-6">
-          <div className="flex flex-col flex-wrap lg:justify-center md:items-center justify-center items-center gap-3">
+          <div className="flex flex-col flex-wrap lg:justify-center md:items-center justify-center items-center gap-1">
             <h1
               className="lg:font-[700] lg:text-[55px] lg:leading-[66px] lg:text-center md:font-[700] md:text-[55px] md:leading-[66px] md:text-center sm:font-[700] sm:text-[45px] sm:leading-[50px] sm:text-center
             font-[500] text-[35px] leading-[40px] text-center px-1"

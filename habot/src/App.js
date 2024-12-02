@@ -12,13 +12,13 @@ function App() {
   const videoId = 'i8tgRHXx4oQ';
   return (
     <div>
-      {/* <Navbar></Navbar> */}
-      <Hero></Hero>
-      {/* <Dashboard></Dashboard>
-      <YtDashboard videoId={videoId}></YtDashboard>
-      <BuyersPost></BuyersPost>
-      <GetVefified></GetVefified>
-      <Footer></Footer> */}
+      {/* <Navbar></Navbar>
+      <Hero></Hero> */}
+      <Dashboard></Dashboard>
+      {/* <YtDashboard videoId={videoId}></YtDashboard>/ */}
+      {/* <BuyersPost></BuyersPost>
+      <GetVefified></GetVefified> */}
+      {/* <Footer></Footer> */}
     </div>
   );
 }

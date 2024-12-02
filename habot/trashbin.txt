@@ -1,3 +1,720 @@
+ <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Dubai
+            </button>
+          </div>
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Dubai
+            </button>
+          </div>
+ 
+w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer
+ 
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Dubai
+            </button>
+          </div>
+ 
+ <div class="flex lg:gap-4 lg:justify-end lg:mt-5 md:justify-center md:gap-4 md:mt-5">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Ras Al Khaimah
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Umm Al Quwain
+            </button>
+          </div>
+ 
+ <div class="flex lg:gap-4 lg:justify-end lg:mt-5 md:justify-center md:gap-4 md:mt-5">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Sharjah & Ajman
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Fujairah
+            </button>
+          </div>
+ 
+ <div class="flex lg:gap-4 lg:justify-end lg:mt-5 md:justify-center md:gap-4 md:mt-5">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Sharjah & Ajman
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Fujairah
+            </button>
+          </div>
+ 
+ <div class="flex lg:gap-4 lg:justify-end lg:mt-5 md:justify-center md:gap-4 md:mt-5">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Sharjah & Ajman
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Fujairah
+            </button>
+          </div>
+ 
+lg:py-0
+ 
+<div class="flex-1 min-w-[200px] flex lg:flex-col lg:pr-5 bg-blue-400 flex-col">
+ 
+flex gap-4 justify-end
+ 
+gap-4 justify-end
+ 
+<div class="flex-1 min-w-[200px] flex lg:flex-col lg:gap-4 lg:pr-5 bg-blue-400 flex-col ">
+ 
+
+        <div class="flex-1 min-w-[200px] bg-red-600 grid grid-cols-1 lg:gap-8 p-5">
+ 
+"flex-1 min-w-[200px] bg-red-600 grid grid-cols-1 lg:gap-8 p-5"
+ 
+      <div class="flex flex-wrap bg-orange-400 lg:gap-4 lg:px-16 lg:py-16">
+ 
+sm:leading-[24px]
+ 
+ style={{
+            marginTop:"5px"
+          }}
+ 
+style={{
+            marginTop:"5px"
+          }}>
+ 
+
+            lineHeight:"15px"
+ 
+<h1 class="text-[37px] font-[700]">
+            Ready to dive into <font color="#271555">HABOT?</font>
+          </h1>
+ 
+<h1 class="text-[37px] font-[700]">
+            Ready to dive into <font color="#271555">HABOT?</font>
+          </h1>
+ 
+</span>
+ 
+<span class="text-[#271555] ">
+ 
+<span class="text-[#271555] ">
+ 
+
+</div>
+
+ 
+<div class="flex-1 min-w-[200px] grid grid-cols-1 gap-10 p-5">
+          <h1 class="text-[37px] font-[700] leading-[30px]">
+            Ready to dive into <span class="text-[#271555]">HABOT?</span>
+          </h1>
+ 
+<div class="flex-1 min-w-[200px] grid grid-cols-1 gap-10 p-5">
+          <h1 class="text-[37px] font-[700] leading-[30px]">
+            Ready to dive into <span class="text-[#271555]">HABOT?</span>
+          </h1>
+ 
+ block sm:mt-4 md:mt-6
+ 
+<h1 class="text-[37px] font-[700] leading-[30px]">
+            Ready to dive into <span class="text-[#271555]">HABOT?</span>
+          </h1>
+ 
+<h1 class="text-[37px] font-[700] leading-[30px]">
+            Ready to dive into <span class="text-[#271555]">HABOT?</span>
+          </h1>
+ 
+sm:text-[16px]
+ 
+sm:text-[16px]
+ 
+ <div class="flex flex-wrap gap-4 px-16 py-16  ">
+        <div class="grid grid-cols-1 gap-7 p-5  min-w-[200px]">
+          <h1 class="text-[37px] font-[700] leading-[30px]">
+            Ready to dive into <span className="text-[#271555]">HABOT?</span>
+          </h1>
+
+          {/* <!-- Responsive Paragraph with Fixed Width and Scroll on Overflow --> */}
+          <p class="text-[17.16px] font-[300] ml-1 leading-[28px] underline decoration-transparent sm:text-[16px] sm:leading-[24px] sm:mb-4 w-[485px] max-w-full text-justify overflow-x-auto resize-none">
+            Signing up with HABOT opens the door to a world of new opportunities
+            and potential for business growth. Gain access to a vibrant
+            community of like-minded individuals, unlock valuable resources, and
+            take the first step towards realizing your entrepreneurial dreams.
+          </p>
+
+          <button className="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center">
+            Sign up Today!
+          </button>
+        </div>
+
+        <div class="flex-1 min-w-[200px]  flex flex-col gap-4  pr-5">
+          <div class="flex gap-4 justify-end mt-6">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Abu Dhabi
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Dubai
+            </button>
+          </div>
+          <div class="flex gap-4 justify-end">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Sharjah & Ajman
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Fujairah
+            </button>
+          </div>
+          <div class="flex gap-4 justify-end">
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Ras Al Khaimah
+            </button>
+            <button class="w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 py-4 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer">
+              Umm Al Quwain
+            </button>
+          </div>
+        </div>
+      </div>
+ 
+<div class="grid grid-cols-1 gap-7 p-5  min-w-[200px]">
+          <h1 class="text-[37px] font-[700] leading-[30px]">
+            Ready to dive into <span className="text-[#271555]">HABOT?</span>
+          </h1>
+
+          {/* <!-- Responsive Paragraph with Fixed Width and Scroll on Overflow --> */}
+          <p class="text-[17.16px] font-[300] ml-1 leading-[28px] underline decoration-transparent sm:text-[16px] sm:leading-[24px] sm:mb-4 w-[485px] max-w-full text-justify overflow-x-auto resize-none">
+            Signing up with HABOT opens the door to a world of new opportunities
+            and potential for business growth. Gain access to a vibrant
+            community of like-minded individuals, unlock valuable resources, and
+            take the first step towards realizing your entrepreneurial dreams.
+          </p>
+
+          <button className="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center">
+            Sign up Today!
+          </button>
+        </div>
+ 
+bg-red-300
+ 
+bg-green-600
+ 
+bg-red-700
+ 
+items-center
+ 
+items-center
+ 
+items-center
+ 
+260
+ 
+ Button 1
+ 
+Button 1
+ 
+Button 1
+ 
+utton 1
+ 
+Button 1
+ 
+Button 1
+ 
+<button class="w-full max-w-[260px] h-[65px] bg-white text-[#E7760D] border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+              Button 6
+            </button>
+ 
+<button class="w-full max-w-[260px] h-[65px] bg-white text-[#E7760D] border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+              Button 5
+            </button>
+ 
+<button class="w-full max-w-[260px] h-[65px] bg-white text-[#E7760D] border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+              Button 4
+            </button>
+ 
+ <button class="w-full max-w-[260px] h-[65px] bg-white text-[#E7760D] border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+              Button 3
+            </button>
+ 
+<button class="w-full max-w-[260px] h-[65px] bg-white text-[#E7760D] border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+              Button 2
+            </button>
+ 
+<button class="w-full max-w-[260px] h-[65px] bg-[#E7760D] text-white border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+            Click Me
+          </button>
+ 
+flex-1 min-w-[200px] flew flex-col bg-red-300 gap-4
+ 
+flex-1 min-w-[200px] flew flex-col bg-red-300 gap-4
+ 
+flex flex-wrap gap-4 p-5 bg-green-600
+ 
+<div class="flex-1 min-w-[200px]">
+          <h1 class="text-xl mb-3">Heading</h1>
+
+          {/* <!-- Responsive Paragraph --> */}
+          <p class="text-[17.16px] font-light leading-[28px] underline decoration-transparent sm:text-[16px] sm:leading-[24px] sm:mb-4 w-[485px] text-justify">
+            Signing up with HABOT opens the door to a world of new opportunities
+            and potential for business growth. Gain access to a vibrant
+            community of like-minded individuals, unlock valuable resources, and
+            take the first step towards realizing your entrepreneurial dreams.
+          </p>
+
+          <button class="w-full max-w-[260px] h-[65px] bg-[#E7760D] text-white border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+            Click Me
+          </button>
+        </div>
+ 
+text-left
+ 
+<div class="flex-1 min-w-[200px]">
+          <h1 class="text-xl mb-3">Heading</h1>
+
+          {/* <!-- Responsive Paragraph --> */}
+          <p class="text-left text-[17.16px] font-light leading-[28px] underline decoration-transparent sm:text-[16px] sm:leading-[24px] sm:mb-4">
+            Signing up with HABOT opens the door to a world of new opportunities
+            and potential for business growth. Gain access to a vibrant
+            community of like-minded individuals, unlock valuable resources, and
+            take the first step towards realizing your entrepreneurial dreams.
+          </p>
+
+          <button class="w-full max-w-[260px] h-[65px] bg-[#E7760D] text-white border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">
+            Click Me
+          </button>
+        </div>
+ 
+<div class="flex-1 min-w-[200px]">
+    <h1 class="text-xl mb-3">Heading</h1>
+    <p class="mb-4">This is a paragraph.</p>
+    <button class="w-full max-w-[260px] h-[65px] bg-[#E7760D] text-white border border-[#E7760D] rounded-tl-[5px] px-0 py-4 opacity-100">Click Me</button>
+  </div>
+ 
+
+  <!-- Right Div (Buttons) -->
+ 
+
+  <!-- Left Div -->
+ 
+
+  <!-- Left Div -->
+ 
+
+
+  <!-- Right Div (Buttons) -->
+ 
+<div className="w-auto h-full flex flex-col gap-6 lg:items-start px-6 md:px-[60px] py-6 md:py-[60px] md:items-center items-center">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-[700] leading-tight text-black">
+            Ready to dive into <span className="text-[#271555]">HABOT?</span>
+          </h1>
+          <p className="text-[20px] lg:text-lg font-light text-[#000000] text-justify w-full sm:w-[500px] md:w-[540px]">
+            Signing up with HABOT opens the door to a world of new opportunities
+            and potential for business growth. Gain access to a vibrant
+            community of like-minded individuals, unlock valuable resources, and
+            take the first step towards realizing your entrepreneurial dreams.
+          </p>
+          <button className="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center">
+            Sign up Today!
+          </button>
+        </div>
+ 
+<div className="lg:w-auto h-full flex flex-wrap gap-4 px-4 md:px-[76px] py-4 md:py-[20px] lg:py-[80px] justify-center">
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Abu Dhabi
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Sharjah & Ajman
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Dubai
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Fujairah
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Ras Al Khaimah
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Umm Al Quwain
+          </button>
+        </div>
+ 
+ <div className="lg:w-auto h-full flex flex-wrap gap-4 px-4 md:px-[76px] py-4 md:py-[20px] lg:py-[80px] justify-center">
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Abu Dhabi
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Sharjah & Ajman
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Dubai
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Fujairah
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Ras Al Khaimah
+          </button>
+          <button className="w-[220px] h-[60px] rounded-[5px] border-[1px] border-[#E7760D] mb-4">
+            Umm Al Quwain
+          </button>
+        </div>
+ 
+bg-red-500
+ 
+py-4 md:py-[20px] lg:py-[80px]
+ 
+
+  const countries = [
+    { _name: 'Abu Dhabi', _path: '/' },
+    { _name: 'Dubai', _path: '/' },
+    { _name: 'Sharjah & Ajman', _path: '/' },
+    { _name: 'Fujairah', _path: '/' },
+    { _name: 'Ras Al Khaimah', _path: '/' },
+    { _name: 'Umm Al Quwain', _path: '/' },
+  ];
+ 
+ {/* <div className="grid lg:grid-cols-2 w-full h-auto bg-orange-400 lg:justify-between lg:px-20 lg:py-16">
+        <div className="flex flex-col flex-wrap gap-4 bg-red-500">
+          <div className="flex flex-col flex-wrap gap-8 items-start">
+            <h1 className="font-[700] text-[37px] leading-[40px]">
+              Ready to dive into <span className="text-[#271555]">HABOT?</span>
+            </h1>
+            <p className="w-[520px] font-[300] text-[17.16px] leading-[28px] text-justify">
+              Signing up with HABOT opens the door to a world of new
+              opportunities and potential for business growth. Gain access to a
+              vibrant community of like-minded individuals, unlock valuable
+              resources, and take the first step towards realizing your
+              entrepreneurial dreams.
+            </p>
+            <button className="w-[317px] h-[54px] rounded-[5px] bg-[#00732F] border-[1px] border-[#00732F] text-[18px] text-center font-[700] leading-[24px] text-white">
+              Sign up Today!
+            </button>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-4 bg-red-800 max-w-[520px] h-[39vh] pt-5 ml-4">
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+        </div>
+      </div> */}
+      {/* <main className="w-full flex items-center justify-center py-16 bg-green-500 screen-750px:py-12">
+        <section className=" max-w-max-width-of-section w-full bg-red-600 flex items-center justify-center">
+          <div className="w-width-of-component flex items-center justify-between screen-580px:flex-col screen-580px:justify-center screen-580px:gap-6 bg-red-300">
+            <div className="w-48% flex items-start justify-center bg-gray-600 flex-col gap-8 font-poppins screen-750px:gap-2 screen-580px:w-full screen-580px:items-center">
+              <h3 className="font-[700] text-[37px] leading-[40px] screen-970px:text-h6 screen-750px:text-btn1 screen-580px:text-center screen-580px:w-full screen-480px:text-btn2 screen-370px:text-p1">
+                <span>Ready to dive into </span>
+                <span className=" text-habot-heading-color">HABOT?</span>
+              </h3>
+              <p className=" text-justify text-[16px] font-[300] leading-[28px] screen-970px:text-p3 screen-750px:text-p4 screen-420px:text-p5">
+                Signing up with HABOT opens the door to a world of new
+                opportunities and potential for business growth. Gain access to
+                a vibrant community of like-minded individuals, unlock valuable
+                resources, and take the first step towards realizing your
+                entrepreneurial dreams.
+              </p>
+              <button className="lg:w-[290px] h-[52px] text-[18px] text-center font-[700] text-white bg-nav-button-color flex items-center justify-center gap-4 px-8 py-2 rounded-md border-nav-button-color border-2 hover:bg-white hover:text-nav-button-color transition-colors duration-200 ease-in-out screen-970px:text-p3 screen-750px:text-p4 screen-420px:text-p5">
+                Sign up Today!
+              </button>
+            </div>
+            <div className="flex items-center justify-center gap-3 text-p2 font-h2 font-inter flex-wrap bg-slate-400 lg:h-auto lg:w-auto lg:gap-5 lg:text-p3 md:h-[70vh] md:w-[90%] sm:h-[60vh] sm:w-[100%] xs:h-auto xs:w-full">
+              {countries?.map((country, ind) => {
+                return (
+                  <button
+                    // onClick={() => navigate(country._path)}
+                    key={ind}
+                    className="lg:w-[240px] lg:h-[60px] border border-header-serch-icon-color rounded-md py-2 w-49% text-center hover:bg-header-serch-icon-color hover:text-white cursor-pointer"
+                  >
+                    {country._name}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      </main> */}
+ 
+<div className="w-48% flex items-center lg:justify-center lg:gap-5 flex-wrap gap-y-3 text-p2 font-h2 font-inter screen-970px:text-p3 screen-970px:gap-y-2 screen-750px:text-p4 screen-580px:w-full screen-580px:gap-y-3 screen-420px:text-p5 screen-420px:gap-y-2 bg-slate-400">
+ 
+
+                </span>
+ 
+
+                <span className=" text-2xl screen-970px:text-xl screen-750px:text-lg screen-420px:text-base">
+                  {/* <LuMoveRight /> */}
+ 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/**/*.{html,js,jsx,ts,tsx}', // Make sure to include your React files here
+  ],
+  theme: {
+    extend: {
+      fontSize: {
+        'sm': '0.75rem',   // Small size 12px
+        'base': '0.875rem', // Base size 14px
+        'md': '1rem',      // Medium size 16px
+        'lg': '1.25rem',   // Large size (20px)
+        'xl': '1.5rem',    // Extra large size (24px)
+        '2xl': '1.75rem',  // 2x large size (28px)
+        '3xl': '2.25rem',  // 3x large size (36px)
+      },
+    },
+  },
+  fontFamily: {
+    display: ["Poppins", "sans-serif"], // Ensure this is correct
+    body: ["Inter", "sans-serif"],      // Ensure this is correct
+  },
+  plugins: [require("tailwindcss"), require("autoprefixer")],
+};
+
+ 
+  /** @type {import('tailwindcss').Config} */
+  module.exports = {
+    content: [
+      './src/**/*.{html,js,jsx,ts,tsx}', // Make sure to include your React files here
+    ],
+    theme: {
+      extend: {
+        fontSize: {
+          'sm': '0.75rem',   // Small size 12px
+          'base': '0.875rem', // Base size 14px
+          'md': '1rem',      // Medium size 16px
+          'lg': '1.25rem',   // Large size (20px)
+          'xl': '1.5rem',    // Extra large size (24px)
+          '2xl': '1.75rem',  // 2x large size (28px)
+          '3xl': '2.25rem',  // 3x large size (36px)
+        },
+      },
+    },
+    fontFamily: {
+      display: ["Poppins", "sans-serif"], // Ensure this is correct
+      body: ["Inter", "sans-serif"],      // Ensure this is correct
+    },
+    plugins: [require("tailwindcss"), require("autoprefixer")],
+  };
+
+ 
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './src/**/*.{html,js,jsx,ts,tsx}', // Make sure to include your React files here
+  ],
+  theme: {
+    extend: {
+      fontSize: {
+        'sm': '0.75rem',   // Small size 12px
+        'base': '0.875rem', // Base size 14px
+        'md': '1rem',      // Medium size 16px
+        'lg': '1.25rem',   // Large size (20px)
+        'xl': '1.5rem',    // Extra large size (24px)
+        '2xl': '1.75rem',  // 2x large size (28px)
+        '3xl': '2.25rem',  // 3x large size (36px)
+      },
+    },
+  },
+  fontFamily: {
+    display: ["Poppins", "sans-serif"], // Ensure this is correct
+    body: ["Inter", "sans-serif"],      // Ensure this is correct
+  },
+  plugins: [require("tailwindcss"), require("autoprefixer")],
+};
+
+ 
+
+          {/* <!-- text content start here --> */}
+ 
+
+        {/* <!-- Left Div with Content --> */}
+ 
+
+        {/* <!-- Right Div with Buttons --> */}
+ 
+
+          {/* <!-- text content end here --> */}
+ 
+ <div className="grid lg:grid-cols-2 w-full h-auto bg-orange-400 lg:justify-between lg:px-20 lg:py-16">
+        <div className="flex flex-col flex-wrap gap-4 bg-red-500">
+          {/* text content start here */}
+          <div className="flex flex-col flex-wrap gap-8 items-start">
+            <h1 className="font-[700] text-[37px] leading-[40px]">
+              Ready to dive into <span className="text-[#271555]">HABOT?</span>
+            </h1>
+            <p className="w-[520px] font-[300] text-[17.16px] leading-[28px] text-justify">
+              Signing up with HABOT opens the door to a world of new
+              opportunities and potential for business growth. Gain access to a
+              vibrant community of like-minded individuals, unlock valuable
+              resources, and take the first step towards realizing your
+              entrepreneurial dreams.
+            </p>
+            <button className="w-[317px] h-[54px] rounded-[5px] bg-[#00732F] border-[1px] border-[#00732F] text-[18px] text-center font-[700] leading-[24px] text-white">
+              Sign up Today!
+            </button>
+          </div>
+          {/* text content end here */}
+        </div>
+        <div className="flex flex-wrap gap-4 bg-red-800 max-w-[520px] h-[39vh] pt-5 ml-4">
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+        </div>
+      </div>
+ 
+flex flex-wrap lg:flex-row
+ 
+lg:justify-between 
+ 
+<div className="flex flex-wrap lg:flex-row w-full h-auto bg-orange-400 lg:justify-between lg:px-20 lg:py-16">
+        <div className="flex flex-col flex-wrap gap-4 bg-red-500">
+          {/* text content start here */}
+          <div className="flex flex-col flex-wrap gap-8 items-start">
+            <h1 className="font-[700] text-[37px] leading-[40px]">
+              Ready to dive into <span className="text-[#271555]">HABOT?</span>
+            </h1>
+            <p className="w-[520px] font-[300] text-[17.16px] leading-[28px] text-justify">
+              Signing up with HABOT opens the door to a world of new
+              opportunities and potential for business growth. Gain access to a
+              vibrant community of like-minded individuals, unlock valuable
+              resources, and take the first step towards realizing your
+              entrepreneurial dreams.
+            </p>
+            <button className="w-[317px] h-[54px] rounded-[5px] bg-[#00732F] border-[1px] border-[#00732F] text-[18px] text-center font-[700] leading-[24px] text-white">
+              Sign up Today!
+            </button>
+          </div>
+          {/* text content end here */}
+        </div>
+        <div className="flex flex-wrap gap-4 bg-red-800 max-w-[520px] h-[39vh] pt-5 ml-4">
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+        </div>
+      </div>
+ 
+<div className="flex flex-wrap lg:flex-row w-full h-auto bg-orange-400 lg:justify-between lg:px-20 lg:py-16">
+        <div className="flex flex-col flex-wrap gap-4 bg-red-500">
+          {/* text content start here */}
+          <div className="flex flex-col flex-wrap gap-8 items-start">
+            <h1 className="font-[700] text-[37px] leading-[40px]">
+              Ready to dive into <span className="text-[#271555]">HABOT?</span>
+            </h1>
+            <p className="w-[520px] font-[300] text-[17.16px] leading-[28px] text-justify">
+              Signing up with HABOT opens the door to a world of new
+              opportunities and potential for business growth. Gain access to a
+              vibrant community of like-minded individuals, unlock valuable
+              resources, and take the first step towards realizing your
+              entrepreneurial dreams.
+            </p>
+            <button className="w-[317px] h-[54px] rounded-[5px] bg-[#00732F] border-[1px] border-[#00732F] text-[18px] text-center font-[700] leading-[24px] text-white">
+              Sign up Today!
+            </button>
+          </div>
+          {/* text content end here */}
+        </div>
+        <div className="flex flex-wrap gap-4 bg-red-800 max-w-[520px] h-[39vh] pt-5 ml-4">
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">
+            Abu Dhabi
+          </button>
+        </div>
+      </div>
+ 
+bg-red-800
+ 
+bg-red-500
+ 
+bg-orange-400 
+ 
+<div className="flex flex-wrap gap-4 bg-red-800">
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex flex-wrap justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">Abu Dhabi</button>
+          <button className="w-[250px] h-[65px] rounded-[5px] border-[1px] border-[#E7760D] flex flex-wrap justify-center items-center font-[500] text-[18.75px] leading-[32px] text-center">Abu Dhabi</button>
+        </div>
+ 
+
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+ 
+
+        {/* Right Div */}
+ 
+
+        {/* left div */}
+ 
+//
+ 
+
+     </div>
+ 
+overflow-x-hidden
+ 
 pl-14
  
 pl-14
