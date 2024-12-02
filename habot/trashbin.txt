@@ -1,3 +1,741 @@
+lg:w-[75%] lg:ml-0
+ 
+
+  lg:w-[75%] lg:ml-0"
+ 
+
+          <div id="nav-bar" className="flex justify-between items-center">
+            
+          </div>
+ 
+{/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
+
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
+ 
+style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+ 
+border border-[#00732F]
+ 
+ style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+ 
+ style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+ 
+ style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+ 
+
+                style={{
+                  marginLeft: '7px',
+                  cursor: 'pointer',
+                }} // Adjust size as needed
+ 
+
+          style={{
+            width: '181px',
+            height: 'auto',
+          }}
+ 
+ase-in-out
+ 
+ <nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a href="#" className="flex items-center">
+        <img
+          alt="Habot Logo"
+          src={logo}
+          style={{
+            width: '181px',
+            height: 'auto',
+          }}
+        />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center"
+                alt="Dropdown"
+                style={{
+                  marginLeft: '7px',
+                  cursor: 'pointer',
+                }} // Adjust size as needed
+              />
+            )}
+          </div>
+        ))}
+
+        <button
+          className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+          style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+        >
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-gray-200 shadow-lg p-5 
+  sm:mt-[65px] sm:mx-auto 
+  md:mt-[65px] md:mx-auto md:w-[85%] 
+  lg:w-[75%] lg:ml-0"
+        >
+          <div id="nav-bar" className="flex justify-between items-center">
+            {/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
+
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
+          </div>
+
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black md:w-[193px] lg:w-[193px] w-[150px]"
+              style={{
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+ <nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a href="#" className="flex items-center">
+        <img
+          alt="Habot Logo"
+          src={logo}
+          style={{
+            width: '181px',
+            height: 'auto',
+          }}
+        />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center"
+                alt="Dropdown"
+                style={{
+                  marginLeft: '7px',
+                  cursor: 'pointer',
+                }} // Adjust size as needed
+              />
+            )}
+          </div>
+        ))}
+
+        <button
+          className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+          style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+        >
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-gray-200 shadow-lg p-5 
+  sm:mt-[65px] sm:mx-auto 
+  md:mt-[65px] md:mx-auto md:w-[85%] 
+  lg:w-[75%] lg:ml-0"
+        >
+          <div id="nav-bar" className="flex justify-between items-center">
+            {/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
+
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
+          </div>
+
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black md:w-[193px] lg:w-[193px] w-[150px]"
+              style={{
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+mt-[65px]
+ 
+
+                width: '193px',
+ 
+
+                width: '193px',
+ 
+ <nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a href="#" className="flex items-center">
+        <img
+          alt="Habot Logo"
+          src={logo}
+          style={{
+            width: '181px',
+            height: 'auto',
+          }}
+        />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center"
+                alt="Dropdown"
+                style={{
+                  marginLeft: '7px',
+                  cursor: 'pointer',
+                }} // Adjust size as needed
+              />
+            )}
+          </div>
+        ))}
+
+        <button
+          className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+          style={{
+            width: '193px',
+            height: '50px',
+            borderRadius: '5px',
+            border: '1px solid #00732F',
+            color: '#00732F',
+            fontSize: '15px',
+            fontWeight: '700',
+            lineHeight: '24px',
+          }}
+        >
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-gray-200 shadow-lg p-5 
+  sm:mt-[65px] sm:mx-auto 
+  md:mt-[65px] md:mx-auto md:w-[85%] 
+  lg:w-[75%] lg:ml-0"
+        >
+          <div id="nav-bar" className="flex justify-between items-center">
+            {/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
+
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
+          </div>
+
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black"
+              style={{
+                width: '193px',
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden"
+          style={{
+            height: '40vh',
+            width: '90%', // width as per your original setup
+            marginTop: '65px',
+            marginLeft: '20px',
+            borderRadius: '20px', // Rounded corners
+            backgroundColor: 'white', // White background
+            border: '1px solid rgba(0, 0, 0, 0.1)', // Light border with a soft color
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)', // Soft shadow effect
+            padding: '20px', // Padding inside the box
+          }}
+        >
+ 
+ {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden"
+          style={{
+            height: '40vh',
+            width: '90%', // width as per your original setup
+            marginTop: '65px',
+            marginLeft: '20px',
+            borderRadius: '20px', // Rounded corners
+            backgroundColor: 'white', // White background
+            border: '1px solid rgba(0, 0, 0, 0.1)', // Light border with a soft color
+            boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)', // Soft shadow effect
+            padding: '20px', // Padding inside the box
+          }}
+        >
+          <div id="nav-bar" className="flex justify-between items-center">
+            {/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
+
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
+          </div>
+
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black"
+              style={{
+                width: '193px',
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+ 
+{isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden"
+          style={{
+            height: "40vh",
+            width: "90%", // width as per your original setup
+            marginTop: "65px",
+            marginLeft: "20px",
+            borderRadius: "20px", // Rounded corners
+            backgroundColor: "white", // White background
+            border: "1px solid rgba(0, 0, 0, 0.1)", // Light border with a soft color
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)", // Soft shadow effect
+            padding: "20px", // Padding inside the box
+          }}
+        >
+          <div id="nav-bar" className="flex justify-between items-center">
+            {/* Left: Logo (uncomment if you have logo to display) */}
+            {/* <a href="#" className="flex gap-2 items-center">
+        <img
+          alt="Habot Logo"
+          src={logo} // Update with actual logo path
+          style={{
+            width: "100px",
+            height: "auto",
+          }}
+        />
+      </a> */}
+
+            {/* Right: Button to close menu (uncomment if you want to close functionality) */}
+            {/* <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={faXmark} style={{ height: "25px" }} />
+      </button> */}
+          </div>
+
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? "page" : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === "Find Service Tags" && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: "7px",
+                      cursor: "pointer",
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black"
+              style={{
+                width: "193px",
+                height: "50px",
+                borderRadius: "5px",
+                border: "1px solid #00732F",
+                color: "#00732F",
+                fontSize: "15px",
+                fontWeight: "700",
+                lineHeight: "24px",
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+ 
+
+        background: "gray",
+ 
+bg-orange-500
+ 
+
+import YtEmbed from './YtEmbeded';
+ 
 bg-stone-700
  
 bg-orange-700

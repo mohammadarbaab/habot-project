@@ -1,5 +1,4 @@
 import React from 'react';
-import YtEmbed from './YtEmbeded';
 import check from '../Asessts/checked.png';
 
 function YtDashboard({ videoId }) {
@@ -33,7 +32,7 @@ function YtDashboard({ videoId }) {
               </h1>
             </div>
             {/* paragraph section */}
-            <div className="lg:w-[100%] h-auto flex lg:flex-col md:flex-col lg:mt-8 flex-col px-4">
+            <div className="lg:w-[100%] h-auto flex lg:flex-col md:flex-col lg:mt-8 flex-col lg:px-0 px-4">
               <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
                 <img
                   src={check}
