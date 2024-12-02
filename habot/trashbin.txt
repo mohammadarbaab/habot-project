@@ -1,3 +1,128 @@
+pl-14
+ 
+pl-14
+ 
+  <input
+              className="flex flex-wrap w-auto lg:w-[390px] lg:h-[52px] md:w-[390px] md:h-[52px] sm:w-[390px] sm:h-[52px]
+               h-[52px] rounded-[5px] border-b-1 pl-12 bg-no-repeat focus:outline-none text-black justify-center items-center"
+              placeholder="Search your required service here"
+              style={{
+                backgroundImage: `url(${emailIcon})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: '15px center', // Icon ko vertically center karne ke liye
+                paddingLeft: '45px', // Placeholder aur icon ke beech mein space ke liye
+              }}
+            />
+ 
+<input
+              className="flex flex-wrap lg:w-[390px] lg:h-[52px] md:w-[390px] md:h-[52px] sm:w-[390px] sm:h-[52px]
+               h-[52px] rounded-[5px] border-b-1 pl-12 bg-no-repeat focus:outline-none text-black justify-center items-center xs:w-[380px]"
+              placeholder="Search your required service here"
+              style={{
+                backgroundImage: `url(${emailIcon})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: '15px center', // Icon ko vertically center karne ke liye
+                paddingLeft: '45px', // Placeholder aur icon ke beech mein space ke liye
+              }}
+            />
+ 
+w-auto
+ 
+            <input
+              className="flex flex-wrap md:w-[390px] md:h-[52px] lg:w-[390px] w-auto lg:h-[52px] rounded-[5px] border-b-1 pl-12 bg-no-repeat focus:outline-none text-black justify-center items-center"
+              placeholder="Search your required service here"
+              style={{
+                backgroundImage: `url(${locationIcon})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: '15px center', // Icon ko vertically center karne ke liye
+                paddingLeft: '45px', // Placeholder aur icon ke beech mein space ke liye
+              }}
+            />
+ 
+sm:items-center
+ 
+sm:justify-center
+ 
+font-[400] text-[55px] leading-[66px] text-center
+ 
+ <input
+              className="flex flex-wrap w-[390px] h-[52px] rounded-[5px] border-b-1 pl-12 bg-no-repeat focus:outline-none text-black justify-center items-center"
+              placeholder="Search your required service here"
+              style={{
+                backgroundImage: `url(${emailIcon})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: '15px center', // Icon ko vertically center karne ke liye
+                paddingLeft: '45px', // Placeholder aur icon ke beech mein space ke liye
+              }}
+            />
+ 
+ <input
+              className="flex flex-wrap w-[390px] h-[52px] rounded-[5px] border-b-1 pl-12 bg-[url('../Assets/suitcase 1.png')] bg-no-repeat focus:outline-none text-black justify-center items-center"
+              placeholder="Search your required service here"
+              style={{
+                backgroundImage: `url(${emailIcon})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: '10px center',
+              }}
+            />
+ 
+placeholder-gray-500
+ 
+bg-left bg-[20px]
+ 
+ <input
+              className="flex flex-wrap w-[390px] h-[52px] rounded-[5px] border bottom-1"
+              placeholder="Search your required service here"
+              
+            />
+ 
+g-left bg-[20px]
+ 
+<input
+              className="flex flex-wrap w-[390px] h-[52px] rounded-[5px] border bottom-1"
+              placeholder="Search your required service here"
+            />
+ 
+ bg-orange-400
+ 
+style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+ 
+https://example.com/your-image.jpg
+ 
+<input/>
+ 
+1
+ 
+md:[509px]
+ 
+
+    <div className="flex flex-col gap-2 items-center text-center"></div>
+ 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './input.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+
+ 
+SignUpSection
+ 
 lg:w-[75%] lg:ml-0
  
 
