@@ -12,15 +12,17 @@ import Footer from './Pages/Footer/Footer';
 function App() {
   const videoId = 'i8tgRHXx4oQ';
   return (
-    <div className="overflow-x-hidden">
+    <>
       <Navbar></Navbar>
-      <Hero></Hero>
-      <Dashboard></Dashboard>
-      <YtDashboard videoId={videoId}></YtDashboard>
-      <GetVefified></GetVefified>
-      <BuyersPost></BuyersPost>
-      <Footer></Footer>
-    </div>
+      <div className="overflow-x-hidden">
+        <Hero></Hero>
+        <Dashboard></Dashboard>
+        <YtDashboard videoId={videoId}></YtDashboard>
+        <GetVefified></GetVefified>
+        <BuyersPost></BuyersPost>
+        <Footer></Footer>
+      </div>
+    </>
   );
 }
 
