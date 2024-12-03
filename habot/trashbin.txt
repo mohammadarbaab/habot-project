@@ -1,3 +1,17 @@
+g-gray-600
+ 
+bg-green-400
+ 
+bg-gray-600
+ 
+g-purple-500
+ 
+bg-yellow-300
+ 
+bg-orange-400
+ 
+bg-red-500
+ 
 bg-green-400
  
 bg-yellow-300

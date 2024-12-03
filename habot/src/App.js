@@ -17,8 +17,8 @@ function App() {
       <Hero></Hero>
       <Dashboard></Dashboard>
       <YtDashboard videoId={videoId}></YtDashboard>
-      {/* <GetVefified></GetVefified>
-      <BuyersPost></BuyersPost> */}
+      <GetVefified></GetVefified>
+      {/* <BuyersPost></BuyersPost> */}
 
       {/* <Footer></Footer> */}
     </div>
