@@ -6,7 +6,7 @@ function YtDashboard({ videoId }) {
   const [selected, setSelected] = useState('Buyer');
   return (
     <>
-      <div className="lg:w-[90%] lg:h-[553px] bg-[#072F57] mx-auto flex flex-wrap justify-center lg:flex-row flex-col">
+      <div className="lg:w-[90%] lg:h-[553px] bg-[#072F57] mx-auto flex flex-wrap justify-center lg:flex-row flex-col rounded-[5px]">
         {/* Youtube section */}
         <div className="flex w-auto lg:flex-col lg:w-[45%] md:justify-center flex-wrap lg:justify-center justify-center overflow-hidden sm:py-8 lg:py-0 py-4">
           <iframe

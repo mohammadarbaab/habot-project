@@ -7,7 +7,7 @@ import fb from '../Asessts/Item → Link - Facebook.png';
 
 function Footer() {
   return (
-    <div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center">
+    <div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center mt-24">
       <div className="w-full md:w-[1200px] flex flex-col lg:flex-row md:flex-col flex-wrap justify-between  md:px-2 text-white lg:h-[150px]  h-auto border-t-[1px] border-b-[1px] border-solid border-[#FFFFFF33]">
         <div className="flex flex-col  md:flex-row lg:flex-row flex-wrap md:gap-16 lg:gap-16 md:justify-center sm:justify-center ">
           <div className="md:justify-center lg:justify-center flex lg:flex-col md:flex-col gap-2 flex-col lg:mt-6 items-center mt-5">

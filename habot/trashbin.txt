@@ -1,3 +1,43 @@
+<div>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Dashboard></Dashboard>
+      <YtDashboard videoId={videoId}></YtDashboard>
+      <GetVefified></GetVefified>
+      <BuyersPost></BuyersPost>
+
+      {/* <Footer></Footer> */}
+    </div>
+ 
+<div>
+      <Navbar></Navbar>
+      <Hero></Hero>
+      <Dashboard></Dashboard>
+      <YtDashboard videoId={videoId}></YtDashboard>
+      <GetVefified></GetVefified>
+      <BuyersPost></BuyersPost>
+
+      {/* <Footer></Footer> */}
+    </div>
+ 
+*{
+    overflow-x: hidden;
+}
+ 
+350
+ 
+224
+ 
+Select Your Role and Sign Up
+ 
+Select Your Role and Sign Up
+ 
+Select Your Role and Sign Up
+ 
+Select Your Role and Sign Up
+ 
+bg-orange-400 
+ 
 justify-between
  
 md:pr-[140px]
