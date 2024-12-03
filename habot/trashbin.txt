@@ -1,3 +1,9 @@
+justify-between
+ 
+md:pr-[140px]
+ 
+md:mt-0
+ 
 g-gray-600
  
 bg-green-400
