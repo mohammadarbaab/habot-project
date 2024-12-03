@@ -1,3 +1,74 @@
+<span className="flex-grow text-center leading-[24px] ">
+ 
+class
+ 
+ <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center flex items-center justify-center relative">
+            Sign up Today !
+            <img
+              src={arrow}
+              alt="Arrow"
+              class="w-8 h-4 ml-6 absolute right-3"
+            />
+          </button>
+ 
+ <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center flex items-center justify-center relative">
+            Sign up Today !
+            <img
+              src={arrow}
+              alt="Arrow"
+              class="w-8 h-4 ml-6 absolute right-3"
+            />
+          </button>
+ 
+</span>
+ 
+<span className="text-center items-center justify-center">
+ 
+  <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center flex items-center justify-center relative">
+            <span className="text-center items-center justify-center">Sign up Today !</span>
+            <img
+              src={arrow}
+              alt="Arrow"
+              class="w-8 h-4 ml-6 absolute right-3"
+            />
+          </button>
+ 
+ <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center flex items-center justify-center relative">
+            <span class="text-center">Sign up Today!</span>
+            <img
+              src={arrow}
+              alt="Arrow"
+              class="w-8 h-4 ml-6 absolute right-3"
+            />
+          </button>
+ 
+ <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center flex items-center justify-center relative">
+            <span class="text-center">Sign up Today!</span>
+            <img
+              src={arrow}
+              alt="Arrow"
+              class="w-8 h-4 ml-6 absolute right-3"
+            />
+          </button>
+ 
+ items-center justify-center
+ 
+ <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center lg:px-0 lg:py-0 flex justify-center items-center space-x-2">
+            <span className="absolute">Sign up Today!</span>
+            <img src={arrow} alt="Arrow" class="w-10 h-4 ml-8 " />
+          </button>
+ 
+  <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center lg:px-0 lg:py-0 flex justify-center items-center space-x-2">
+            <span>Sign up Today!</span>
+            <img src={arrow} alt="Arrow" class="w-10 h-4 ml-6" />
+          </button>
+ 
+"../Asessts/Vector.png"
+ 
+<button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center lg:px-0 lg:py-0">
+            Sign up Today ! 
+          </button>
+ 
 <div>
       <Navbar></Navbar>
       <Hero></Hero>
