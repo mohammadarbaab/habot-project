@@ -42,47 +42,46 @@ function Dashboard() {
       </div> */}
       <div class="flex flex-wrap bg-orange-400 lg:flex-row md:flex-col lg:gap-4 lg:px-16 lg:py-16 flex-col">
         {/* <!-- Left side content div --> */}
-        <div class="flex-1 min-w-[200px] bg-red-600 grid grid-cols-1 lg:gap-8 p-5 place-items-center lg:place-items-start py-8 md:gap-4 gap-4">
-          <h1 class="text-[37px] font-[700] lg:leading-[40px]">
+        <div class="flex-1 min-w-0 bg-red-600 grid grid-cols-1 lg:gap-8 p-5 place-items-center lg:place-items-start py-8 md:gap-4 gap-4">
+          <h1 class="text-[37px] font-[700] lg:leading-[40px] text-center sm:text-[28px]">
             Ready to dive into <font color="#271555">HABOT?</font>
           </h1>
 
-          {/* <!-- Responsive Paragraph with Fixed Width and Scroll on Overflow --> */}
-          <p class="lg:text-[17.16px] lg:font-[300] lg:ml-1 lg:leading-[28px] md:leading-[28px] leading-[25px] underline decoration-transparent sm:text-[16px] sm:mb-4 w-[520px] max-w-full text-justify overflow-x-auto resize-none text-black">
+          <p class="lg:text-[17.16px] lg:font-[300] lg:ml-1 lg:leading-[28px] md:leading-[28px] leading-[25px] underline decoration-transparent sm:text-[16px] sm:mb-4 w-full text-justify overflow-x-auto resize-none text-black">
             Signing up with HABOT opens the door to a world of new opportunities
             and potential for business growth. Gain access to a vibrant
             community of like-minded individuals, unlock valuable resources, and
             take the first step towards realizing your entrepreneurial dreams.
           </p>
 
-          <button class="w-[50%] sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center lg:px-0 lg:py-0 md:px-0 ">
+          <button class="w-full sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center lg:px-0 lg:py-0 md:px-0">
             Sign up Today!
           </button>
         </div>
-        {/*  */}
+
         {/* <!-- Right side buttons div --> */}
-        <div class="flex-1 min-w-[200px] flex lg:flex-col lg:pr-5 bg-blue-400 flex-col lg:justify-start lg:px-0 lg:py-0 md:py-6 px-28 py-6 lg:gap-0 gap-4">
+        <div class="flex-1 min-w-0 flex lg:flex-col lg:pr-5 bg-blue-400 flex-col lg:justify-start lg:px-0 lg:py-0 md:py-6 px-4 py-6 lg:gap-4 gap-4">
           <div class="flex lg:gap-4 lg:justify-end lg:mt-10 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
-            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-full sm:w-full">
               Abu Dhabi
             </button>
-            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-full sm:w-[200px]">
               Dubai
             </button>
           </div>
           <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
-            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-full sm:w-[200px]">
               Abu Dhabi
             </button>
-            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-full sm:w-[200px]">
               Dubai
             </button>
           </div>
           <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
-            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-full sm:w-[200px]">
               Abu Dhabi
             </button>
-            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-full sm:w-[200px]">
               Dubai
             </button>
           </div>

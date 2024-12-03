@@ -1,3 +1,753 @@
+ // Placeholder aur icon ke beech mein space ke liye
+ 
+// Icon ko vertically center karne ke liye
+ 
+// Placeholder aur icon ke beech mein space ke liye
+ 
+// Icon ko vertically center karne ke liye
+ 
+
+          {/* Bottom sextion */}
+ 
+
+import { width } from '@fortawesome/free-solid-svg-icons/fa0';
+ 
+
+// import sent from "../Asessts/suitcase 1.png";
+// import address from "../Asessts/placeholder 1.png";
+// import { Input } from "postcss";
+ 
+
+      {/* // <main>
+    //   <div
+    //     className="min-h-[490px] bg-cover bg-center flex flex-col gap-[20px] md:gap-[35px] text-[white] items-center justify-center"
+    //     style={{
+    //       backgroundImage: `linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45)), url(${heroImage})`,
+    //     }}
+    //   >
+    //     <div className="grid justify-items-center flex-col">
+    //       <h1 className="text-[28px] md:text-[55px] font-[700] md:leading-[66px] text-center">
+    //         Are You a Supplier?
+    //       </h1>
+    //       <span className="text-[22px] md:text-[55px] lg:text-[55px] font-[400] md:leading-[66px]  text-center">
+    //         Explore Matching Opportunities.
+    //       </span>
+    //     </div>
+
+    //     <div className="flex flex-col gap-[22px] items-center justify-center md:flex-row md:gap-[10px] md:w-full px-2">
+    //       <input
+    //         type="text"
+    //         placeholder="Search your required service here"
+    //         className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] w-[300px]  md:w-[400px]"
+    //         style={{
+    //           height: '52px',
+    //         }}
+    //       />
+    //       <input
+    //         type="text"
+    //         placeholder="Search your required service here"
+    //         className="pl-[45px] pr-[20px] rounded-[5px] border border-transparent bg-white text-black bg-no-repeat bg-[length:18px] bg-[position:15px_center] w-[300px]  md:w-[400px]"
+    //         style={{
+    //           height: '52px',
+    //         }}
+    //       />
+    //       <button className="w-[160px] h-[54px] bg-[#00732f] rounded-[5px] text-[15px] font-[700]">
+    //         Search
+    //       </button>
+    //     </div>
+
+    //     <div className="flex flex-col  md:flex-row gap-2 items-center text-center ">
+    //       <b className="text-lg  font-semibold">Are you a buyer?</b>
+    //       <span className="underline text-[14px] s">
+    //         Click here if you are looking to post a requirement
+    //       </span>
+    //     </div>
+    //   </div>
+    // </main> */}
+ 
+/* Add this to your global CSS (or inside Tailwind config) */
+html, body {
+  }
+  
+ 
+
+    overflow-x: hidden; /* Hide horizontal scroll */
+    overflow-y: auto;   /* Keep vertical scroll */
+ 
+
+    overflow-y: auto;   Keep vertical scroll
+ 
+<nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a
+        href="#"
+        className="flex items-center md:w-[181px] lg:w-[181px] w-[120px]"
+      >
+        <img alt="Habot Logo" src={logo} />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center cursor-pointer ml-[7px]"
+                alt="Dropdown"
+              />
+            )}
+          </div>
+        ))}
+
+        <button className="relative  font-[700] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 md:w-[193px] lg:w-[193px] rounded-[5px] border-[1px] border-[#00732F] text-[#00732F] text-[15px] leading-[24px] h-[50px]">
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-[#00732F] shadow-xl p-5 
+          sm:mt-[65px] sm:mx-auto md:mt-[65px] md:mx-auto"
+        >
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black md:w-[193px] lg:w-[193px] w-[150px]"
+              style={{
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+ <nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a
+        href="#"
+        className="flex items-center md:w-[181px] lg:w-[181px] w-[120px]"
+      >
+        <img alt="Habot Logo" src={logo} />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center cursor-pointer ml-[7px]"
+                alt="Dropdown"
+              />
+            )}
+          </div>
+        ))}
+
+        <button className="relative  font-[700] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 md:w-[193px] lg:w-[193px] rounded-[5px] border-[1px] border-[#00732F] text-[#00732F] text-[15px] leading-[24px] h-[50px]">
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-[#00732F] shadow-xl p-5 
+          sm:mt-[65px] sm:mx-auto md:mt-[65px] md:mx-auto"
+        >
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black md:w-[193px] lg:w-[193px] w-[150px]"
+              style={{
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+<nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+ 
+
+    overflow-y: ;
+ 
+  <nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a
+        href="#"
+        className="flex items-center md:w-[181px] lg:w-[181px] w-[120px]"
+      >
+        <img alt="Habot Logo" src={logo} />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center cursor-pointer ml-[7px]"
+                alt="Dropdown"
+              />
+            )}
+          </div>
+        ))}
+
+        <button className="relative  font-[700] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 md:w-[193px] lg:w-[193px] rounded-[5px] border-[1px] border-[#00732F] text-[#00732F] text-[15px] leading-[24px] h-[50px]">
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-[#00732F] shadow-xl p-5 
+          sm:mt-[65px] sm:mx-auto md:mt-[65px] md:mx-auto"
+        >
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black md:w-[193px] lg:w-[193px] w-[150px]"
+              style={{
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+  <nav
+      className="px-8 py-2 flex justify-between items-center sticky top-0"
+      style={{
+        height: '65px',
+        background: 'white',
+      }}
+    >
+      <a
+        href="#"
+        className="flex items-center md:w-[181px] lg:w-[181px] w-[120px]"
+      >
+        <img alt="Habot Logo" src={logo} />
+      </a>
+
+      {/* Main navigation links (visible on large screens) */}
+      <div
+        className={`hidden md:flex md:ml-5 space-x-4 justify-center items-center ${
+          isMenuOpen ? 'hidden' : ''
+        }`} // Hide when mobile menu is open
+        style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '15.25px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+      >
+        {navigation.map((item) => (
+          <div key={item.name} className="flex items-center md:text-[14px]">
+            <a
+              href={item.href}
+              aria-current={item.current ? 'page' : undefined}
+              className={classNames(item.current)}
+            >
+              {item.name}
+            </a>
+
+            {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+            {item.name === 'Find Service Tags' && (
+              <img
+                src={dropVec}
+                className="md:justify-center cursor-pointer ml-[7px]"
+                alt="Dropdown"
+              />
+            )}
+          </div>
+        ))}
+
+        <button className="relative  font-[700] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 md:w-[193px] lg:w-[193px] rounded-[5px] border-[1px] border-[#00732F] text-[#00732F] text-[15px] leading-[24px] h-[50px]">
+          Login / Signup
+        </button>
+      </div>
+
+      {/* Hamburger button to open/close mobile menu */}
+      <button className="p-2 md:hidden" onClick={handleMenu}>
+        <FontAwesomeIcon icon={isMenuOpen ? faXmark : faBars} />
+      </button>
+
+      {/* Mobile navigation menu (only shown when isMenuOpen is true) */}
+      {isMenuOpen && (
+        <div
+          id="nav-dailoge"
+          className="fixed inset-0 px-6 md:hidden h-[40vh] w-[90%] mt-[65px] ml-[20px] rounded-[20px] bg-white border border-[#00732F] shadow-xl p-5 
+          sm:mt-[65px] sm:mx-auto md:mt-[65px] md:mx-auto"
+        >
+          {/* Mobile menu content */}
+          <div className="flex-1 gap-4 flex flex-col md:flex-row">
+            {navigation.map((item) => (
+              <div key={item.name} className="flex items-center">
+                <a
+                  href={item.href}
+                  aria-current={item.current ? 'page' : undefined}
+                  className={classNames(item.current)}
+                >
+                  {item.name}
+                </a>
+
+                {/* Check if this is the "Find Service Tags" item, then show the dropdown icon */}
+                {item.name === 'Find Service Tags' && (
+                  <img
+                    src={dropVec}
+                    alt="Dropdown"
+                    style={{
+                      marginLeft: '7px',
+                      cursor: 'pointer',
+                    }}
+                  />
+                )}
+              </div>
+            ))}
+
+            {/* Login / Signup button with hover animation */}
+            <button
+              className="relative text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 transition-all duration-300 ease-in-out hover:bg-green-500 hover:text-black md:w-[193px] lg:w-[193px] w-[150px]"
+              style={{
+                height: '50px',
+                borderRadius: '5px',
+                border: '1px solid #00732F',
+                color: '#00732F',
+                fontSize: '15px',
+                fontWeight: '700',
+                lineHeight: '24px',
+              }}
+            >
+              Login / Signup
+            </button>
+          </div>
+        </div>
+      )}
+    </nav>
+ 
+<div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center">
+      <div className="w-full md:w-[1200px] flex flex-col lg:flex-row md:flex-col flex-wrap justify-between  md:px-2 text-white lg:h-[150px]  h-auto border-t-[1px] border-b-[1px] border-solid border-[#FFFFFF33]">
+        <div className="flex flex-col  md:flex-row lg:flex-row flex-wrap md:gap-16 lg:gap-16 md:justify-center sm:justify-center ">
+          <div className="md:justify-center lg:justify-center flex lg:flex-col md:flex-col gap-2 flex-col lg:mt-6 items-center mt-5">
+            <img
+              src={footerLogo}
+              alt="logo"
+              className="lg:w-[206px] md:w-[206px] sm:w-[206px] w-[206px]"
+            />
+            <p className="text-16px font-[300] leading-[32px] ml-3 mt">
+              © R Singhania
+            </p>
+          </div>
+          <div className="sm:flex-row flex sm:gap-10 justify-center gap-10">
+          <div className="flex md:flex-col md:gap-[7px] md:mt-[20px] flex-col mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Company
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">About</p>
+              <p className="text-[14px] font-[300] leading-[25px]">FAQ</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">Terms</h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Data privacy
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Terms</p>
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Accessibility
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Related
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Find Buyer
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Feedback</p>
+            </div>
+          </div>
+          </div>
+         
+        </div>
+
+        <div className="flex flex-row flex-wrap gap-4 md:items-center lg:justify-center md:justify-center md:py-4 sm:justify-center sm:py-4 pl-4 py-4 justify-center">
+          <a href="#">
+            <img src={linkdln} />
+          </a>
+          <a href="#">
+            <img src={x} />
+          </a>
+          <a href="#">
+            <img src={fb} />
+          </a>
+          <a href="#">
+            <img src={instagram} />
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+<div className="w-full px-4 flex flex-col md:flex-row flex-wrap bg-[#123557] text-white md:h-[212px] h-auto items-center  justify-center">
+      <div className="w-full md:w-[1200px] flex flex-col lg:flex-row md:flex-col flex-wrap justify-between  md:px-2 text-white lg:h-[150px]  h-auto border-t-[1px] border-b-[1px] border-solid border-[#FFFFFF33]">
+        <div className="flex flex-col  md:flex-row lg:flex-row flex-wrap md:gap-16 lg:gap-16 md:justify-center sm:justify-center ">
+          <div className="md:justify-center lg:justify-center flex lg:flex-col md:flex-col gap-2 flex-col lg:mt-6 items-center mt-5">
+            <img
+              src={footerLogo}
+              alt="logo"
+              className="lg:w-[206px] md:w-[206px] sm:w-[206px] w-[206px]"
+            />
+            <p className="text-16px font-[300] leading-[32px] ml-3 mt">
+              © R Singhania
+            </p>
+          </div>
+          <div className="sm:flex-row flex sm:gap-10 justify-center gap-10">
+          <div className="flex md:flex-col md:gap-[7px] md:mt-[20px] flex-col mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Company
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">About</p>
+              <p className="text-[14px] font-[300] leading-[25px]">FAQ</p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">Terms</h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Data privacy
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Terms</p>
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Accessibility
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-[7px]  mt-[20px]">
+            <h1 className="text-[15.13px] font-[700] leading-[24px]">
+              Related
+            </h1>
+            <div className="flex flex-col gap-[2px]">
+              <p className="text-[14px] font-[300] leading-[25px]">
+                Find Buyer
+              </p>
+              <p className="text-[14px] font-[300] leading-[25px]">Feedback</p>
+            </div>
+          </div>
+          </div>
+         
+        </div>
+
+        <div className="flex flex-row flex-wrap gap-4 md:items-center lg:justify-center md:justify-center md:py-4 sm:justify-center sm:py-4 pl-4 py-4 justify-center">
+          <a href="#">
+            <img src={linkdln} />
+          </a>
+          <a href="#">
+            <img src={x} />
+          </a>
+          <a href="#">
+            <img src={fb} />
+          </a>
+          <a href="#">
+            <img src={instagram} />
+          </a>
+        </div>
+      </div>
+    </div>
+ 
+<div class="flex flex-wrap bg-orange-400 lg:flex-row md:flex-col lg:gap-4 lg:px-16 lg:py-16 flex-col">
+        {/* <!-- Left side content div --> */}
+        <div class="flex-1 min-w-[200px] bg-red-600 grid grid-cols-1 lg:gap-8 p-5 place-items-center lg:place-items-start py-8 md:gap-4 gap-4">
+          <h1 class="text-[37px] font-[700] lg:leading-[40px]">
+            Ready to dive into <font color="#271555">HABOT?</font>
+          </h1>
+
+          {/* <!-- Responsive Paragraph with Fixed Width and Scroll on Overflow --> */}
+          <p class="lg:text-[17.16px] lg:font-[300] lg:ml-1 lg:leading-[28px] md:leading-[28px] leading-[25px] underline decoration-transparent sm:text-[16px] sm:mb-4 w-[520px] max-w-full text-justify overflow-x-auto resize-none text-black">
+            Signing up with HABOT opens the door to a world of new opportunities
+            and potential for business growth. Gain access to a vibrant
+            community of like-minded individuals, unlock valuable resources, and
+            take the first step towards realizing your entrepreneurial dreams.
+          </p>
+
+          <button class="w-[50%] sm:w-[240px] lg:w-[317px] h-[54px] rounded-[5px] border border-[#00732F] bg-[#00732F] text-white font-[700] text-lg leading-[24px] text-center lg:px-0 lg:py-0 md:px-0 ">
+            Sign up Today!
+          </button>
+        </div>
+        {/*  */}
+        {/* <!-- Right side buttons div --> */}
+        <div class="flex-1 min-w-[200px] flex lg:flex-col lg:pr-5 bg-blue-400 flex-col lg:justify-start lg:px-0 lg:py-0 md:py-6 px-28 py-6 lg:gap-0 gap-4">
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-10 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Dubai
+            </button>
+          </div>
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Dubai
+            </button>
+          </div>
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Dubai
+            </button>
+          </div>
+        </div>
+      </div>
+ 
+ <div class="flex lg:gap-4 lg:justify-end lg:mt-10 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Dubai
+            </button>
+          </div>
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Dubai
+            </button>
+          </div>
+          <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Abu Dhabi
+            </button>
+            <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
+              Dubai
+            </button>
+          </div>
+ 
+{
+    
+}
+ 
+body:{
+
+}
+ 
  <div class="flex lg:gap-4 lg:justify-end lg:mt-5 lg:ml-2 md:justify-center md:gap-4 gap-4 lg:flex-row md:flex-row flex-col justify-center items-center">
             <button class="md:w-full max-w-[270px] h-[65px] bg-white border border-[#E7760D] rounded-[5px] px-0 opacity-100 text-[18.75px] leading-[32px] text-center font-[500] hover:bg-header-serch-icon-color hover:text-white cursor-pointer w-[200px]">
               Abu Dhabi
