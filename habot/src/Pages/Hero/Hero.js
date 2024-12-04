@@ -21,13 +21,13 @@ function Hero() {
           <div className="flex flex-col flex-wrap lg:justify-center md:items-center justify-center items-center md:gap-0 lg:gap-0 gap-2">
             <h1
               className="lg:font-[700] lg:text-[55px] lg:leading-[66px] lg:text-center md:font-[700] md:text-[55px] md:leading-[66px] md:text-center sm:font-[700] sm:text-[45px] sm:leading-[50px] sm:text-center
-            font-[500] text-[35px] leading-[40px] text-center px-1"
+            font-[500] text-[35px] leading-[40px] text-center px-[6px]"
             >
               Are You a Supplier?
             </h1>
             <h1
               className="lg:font-[400] lg:text-[55px] lg:leading-[66px] lg:text-center md:font-[400] md:text-[45px] md:leading-[60px] md:text-center sm:font-[400] sm:text-[45px] sm:leading-[50px] sm:text-center
-            font-[400] text-[35px] leading-[36px] text-center px-2"
+            font-[400] text-[32px] leading-[36px] text-center px-2"
             >
               Explore Matching Opportunities.
             </h1>

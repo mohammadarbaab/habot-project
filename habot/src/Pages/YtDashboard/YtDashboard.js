@@ -5,9 +5,11 @@ import { useState } from 'react';
 function YtDashboard({ videoId }) {
   const [selected, setSelected] = useState('Buyer');
   return (
-    <div className="lg:px-16 lg:mb-16">
+    // main container start here
+    <div className="lg:px-16 lg:mb-16 mt-8 lg:mt-0 mb-16">
+      {/* content div start here */}
       <div className="lg:w-[100%] lg:h-[553px] bg-[#072F57] mx-auto flex flex-wrap justify-center lg:flex-row flex-col rounded-[5px]">
-        {/* Youtube section */}
+        {/* Youtube section start here */}
         <div className="flex w-auto lg:flex-col lg:w-[45%] md:justify-center flex-wrap lg:justify-center justify-center overflow-hidden sm:py-8 lg:py-0 py-4">
           <iframe
             src={`https://www.youtube.com/embed/${videoId}`}
@@ -19,11 +21,12 @@ function YtDashboard({ videoId }) {
             title="YouTube video"
           ></iframe>
         </div>
-
+        {/* youtube section end here */}
+        {/* text content start here */}
         <div className="flex lg:flex-col lg:mt-0 lg:ml-10 lg:w-[43%] w-full lg:justify-center flex-wrap md:justify-center">
           <div className="flex w-full lg:w-[80%] h-auto lg:h-[310px] lg:flex-col md:flex-col flex-col flex-wrap lg:gap-3 gap-6 mb-4 lg:justify-start lg:ml-[18px] md:justify-center md:items-center lg:items-start">
             {/* Top section (Buyer/Supplier buttons) */}
-            <div className="md:w-[60%] w-full lg:w-[100%]  lg:h-[47px] h-auto flex lg:justify-between lg:mt-5 flex-row lg:px-0 mt-4">
+            <div className="md:w-[60%] w-full lg:w-[100%]  lg:h-[47px] h-auto flex lg:justify-between lg:mt-5 flex-row lg:px-0 mt-4 md:px-0 px-6">
               <button
                 className={`font-[700] text-[26px] lg:leading-[32px] ${selected === 'Buyer' ? 'text-[#EB7150]' : 'text-white'} lg:text-center lg:w-[45%] md:w-[20%] w-full mr-[20px] flex flex-col items-center`}
                 onClick={() => setSelected('Buyer')}
@@ -42,7 +45,6 @@ function YtDashboard({ videoId }) {
                   className={`lg:w-[100%] md:w-[100%]  sm:w-[40%] w-[100%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
                 ></div>
               </button>
-              
             </div>
 
             {/* Paragraph section */}
@@ -120,8 +122,11 @@ function YtDashboard({ videoId }) {
             </div>
           </div>
         </div>
+        {/* text content end here */}
       </div>
+      {/* content div end here */}
     </div>
+    // main container end here
   );
 }
 

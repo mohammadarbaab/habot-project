@@ -7,8 +7,10 @@ import group from '../Asessts/Group.png';
 import group22 from '../Asessts/Group22.png';
 function BuyersPost() {
   return (
-    <div className="h-auto flex flex-wrap flex-col text-center md:mt-20 md:mb-20">
+    // main div start here
+    <div className="h-auto flex flex-wrap flex-col text-center md:mt-20 md:mb-20 mt-16 mb-16">
       <div className="w-full h-auto flex flex-wrap flex-col  items-center gap-[40px]">
+        {/* top heading section start here */}
         <div className="flex flex-col flex-wrap gap-[20px] ">
           <h1 className="text-[37px] font-[700] text-gray-900 text-center leading-[48px]">
             How it works?
@@ -19,6 +21,8 @@ function BuyersPost() {
             successful business relationships, sharing valuable feedback.
           </p>
         </div>
+        {/* top heading section end here */}
+        {/* cards section start here */}
         <div className="w-[90%] flex flex-wrap justify-center ">
           <div className=" flex flex-wrap flex-col items-center justify-center  w-[380px] h-[254px]  gap-5 bg-[#E8FBFF]">
             <img src={group33} className="w-[74px] h-[74px]" />
@@ -57,8 +61,10 @@ function BuyersPost() {
             </p>
           </div>
         </div>
+        {/* cards section end here */}
       </div>
     </div>
+    // main div end here
   );
 }
 
