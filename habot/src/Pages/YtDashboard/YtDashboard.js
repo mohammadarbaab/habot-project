@@ -20,32 +20,33 @@ function YtDashboard({ videoId }) {
           ></iframe>
         </div>
 
-        <div className="flex lg:flex-col lg:mt-0 lg:ml-10 lg:w-[43%] w-full lg:justify-center flex-wrap">
-          <div className="flex w-full lg:w-[90%] h-auto lg:h-[310px] lg:flex-col flex-wrap lg:ml-2 lg:gap-3 gap-6 mb-4 lg:justify-start justify-center">
+        <div className="flex lg:flex-col lg:mt-0 lg:ml-10 lg:w-[43%] w-full lg:justify-center flex-wrap md:justify-center">
+          <div className="flex w-full lg:w-[80%] h-auto lg:h-[310px] lg:flex-col md:flex-col flex-col flex-wrap lg:gap-3 gap-6 mb-4 lg:justify-start lg:ml-[18px] md:justify-center md:items-center lg:items-start">
             {/* Top section (Buyer/Supplier buttons) */}
-            <div className="w-[100%] mx-auto lg:w-[100%]  lg:h-[47px] h-auto flex lg:justify-between lg:mt-5 flex-row md:justify-center mt-4 justify-between">
+            <div className="md:w-[60%] w-full lg:w-[100%]  lg:h-[47px] h-auto flex lg:justify-between lg:mt-5 flex-row lg:px-0 mt-4">
               <button
                 className={`font-[700] text-[26px] lg:leading-[32px] ${selected === 'Buyer' ? 'text-[#EB7150]' : 'text-white'} lg:text-center lg:w-[45%] md:w-[20%] w-full mr-[20px] flex flex-col items-center`}
                 onClick={() => setSelected('Buyer')}
               >
                 <span>Buyer</span>
                 <div
-                  className={`lg:w-[100%] md:w-[50%]  sm:w-[50%] w-[50%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Buyer' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                  className={`lg:w-[100%] md:w-[100%]  sm:w-[40%] w-[100%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Buyer' ? 'border-[#EB7150]' : 'border-transparent'}`}
                 ></div>
               </button>
               <button
-                className={`font-[700] text-[26px] leading-[32px] ${selected === 'Supplier' ? 'text-[#EB7150]' : 'text-white'} lg:w-[45%] md:w-[20%] w-full lg:text-center flex flex-col items-center`}
+                className={`font-[700] text-[26px] lg:leading-[32px] ${selected === 'Supplier' ? 'text-[#EB7150]' : 'text-white'} lg:text-center lg:w-[45%] md:w-[20%] w-full mr-[20px] flex flex-col items-center`}
                 onClick={() => setSelected('Supplier')}
               >
                 <span>Supplier</span>
                 <div
-                  className={`lg:w-[90%] md:w-[50%] sm:w-[50%] w-[50%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                  className={`lg:w-[100%] md:w-[100%]  sm:w-[40%] w-[100%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
                 ></div>
               </button>
+              
             </div>
 
             {/* Paragraph section */}
-            <div className="lg:w-[416px] h-auto flex lg:flex-col md:flex-col lg:mt-8 flex-col lg:px-0 px-4">
+            <div className="lg:w-[416px] md:w-[60%] h-auto flex lg:flex-col md:flex-col lg:mt-6 flex-col lg:px-0 md:px-0 sm:px-[105px] px-6">
               {/* Conditional Content */}
               {selected === 'Buyer' ? (
                 <>
@@ -83,14 +84,14 @@ function YtDashboard({ videoId }) {
                 </>
               ) : (
                 <>
-                  <div className="flex items-start mb-3 md:w-[80%] xl:w-full">
+                  <div className="flex items-start mb-3 md:w-[100%] xl:w-full">
                     <img
                       src={check}
                       className="text-green-500 text-xl mr-2 mt-1.5 flex-shrink-0"
                       alt="check"
                     />
                     <div className="flex-1 text-white text-[18.75px] font-[500]">
-                    Complete your profile and get verified.
+                      Complete your profile and get verified.
                     </div>
                   </div>
                   <div className="flex items-start mb-3 w-full md:w-[100%] xl:w-full">
@@ -100,7 +101,7 @@ function YtDashboard({ videoId }) {
                       alt="check"
                     />
                     <div className="flex-1 text-white text-[18px] font-[500]">
-                    Select service tags for relevant opportunities.
+                      Select service tags for relevant opportunities.
                     </div>
                   </div>
                   <div className="flex items-start mb-3 w-full">
@@ -110,7 +111,8 @@ function YtDashboard({ videoId }) {
                       alt="check"
                     />
                     <div className="flex-1 text-white text-[18px] font-[500] leading-[30px]">
-                    Reach out to buyers and expand your business.
+                      Reach out to buyers and expand your &nbsp; &nbsp;
+                      <span className="inline-block">business.</span>
                     </div>
                   </div>
                 </>

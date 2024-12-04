@@ -1,3 +1,55 @@
+bg-purple-500
+ 
+bg-blue-500
+ 
+bg-red-300
+ 
+bg-green-500
+ 
+bg-orange-400
+ 
+<div
+                  className={`lg:w-[100%] md:w-[100%]  sm:w-[40%] w-[40%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                ></div>
+ 
+Buyer
+ 
+Buyer
+ 
+Buyer
+ 
+<button
+                className={`font-[700] text-[26px] leading-[32px] ${selected === 'Supplier' ? 'text-[#EB7150]' : 'text-white'} lg:w-[45%] md:w-[20%] w-full lg:text-center flex flex-col items-center`}
+                onClick={() => setSelected('Supplier')}
+              >
+                <span>Supplier</span>
+                <div
+                  className={`lg:w-[100%] md:w-[100%]  sm:w-[40%] w-[40%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                ></div>
+              </button>
+ 
+items-center
+ 
+md:px-8
+ 
+<div
+                  className={`lg:w-[90%] md:w-[50%] sm:w-[50%] w-[50%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                ></div>
+ 
+<div
+                  className={`lg:w-[90%] md:w-[50%] sm:w-[50%] w-[50%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                ></div>
+ 
+<div
+                  className={`lg:w-[90%] md:w-[50%] sm:w-[50%] w-[50%] mt-[10px] h-[0.5px] border-b-4 ${selected === 'Supplier' ? 'border-[#EB7150]' : 'border-transparent'}`}
+                ></div>
+ 
+justify-center
+ 
+reviews
+ 
+rating and reviews.
+ 
 lassName="overflow-x-hidden"
  
 className="overflow-x-hidden"
