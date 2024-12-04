@@ -1,3 +1,33 @@
+bg-gray-800
+ 
+
+          fontSize:"30px !important",
+ 
+
+          fontSize:"h1",
+ 
+
+          fontSize:"30px !important",
+ 
+
+          fontWeight: '400',
+ 
+fontSize: '25px !important',
+ 
+ // Add !important to make sure it overrides
+ 
+style={{
+          color: '#6D6E71',
+          lineHeight: '24px',
+          fontSize: '10px',
+          fontWeight: '400',
+          gap: '30px',
+        }}
+ 
+// Ensure this is correct
+ 
+// Ensure this is correct
+ 
  <h1 className="lg:text-[37px] md:text-[37px] text-[30px] font-[600] leading-[40px] text-center md:text-left text-black lg:ml-[80px]">
           Let Suppliers
           <span className="relative inline-block ml-2">

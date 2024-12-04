@@ -30,8 +30,8 @@ module.exports = {
         p6: "8px",
       },
       fontFamily: {
-        display: ["Poppins", "sans-serif"], // Ensure this is correct
-        body: ["Inter", "sans-serif"],      // Ensure this is correct
+        display: ["Poppins", "sans-serif"], 
+        body: ["Inter", "sans-serif"],      
         inter: ['"Inter"', "sans-serif"],
         poppins: ['"Poppins"', "sans-serif"],
       },

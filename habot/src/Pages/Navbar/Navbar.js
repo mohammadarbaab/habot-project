@@ -39,7 +39,6 @@ export default function Navbar() {
         style={{
           color: '#6D6E71',
           lineHeight: '24px',
-          fontSize: '15.25px',
           fontWeight: '400',
           gap: '30px',
         }}
@@ -50,6 +49,7 @@ export default function Navbar() {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(item.current)}
+              style={{ fontSize: '15.25px',fontWeight:'400' }}  // Directly apply font size
             >
               {item.name}
             </a>
